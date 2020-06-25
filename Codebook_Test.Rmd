@@ -1,0 +1,31 @@
+---
+title: "Codebook_Test"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(systemfonts)
+library(labelled)
+library(codebook)
+library(plumber)
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r echo=FALSE}
+#BFI
+# codebook_data <- rio::import("https://osf.io/s87kd/download", "csv")
+#Sleep survey
+codebook_data <- rio::import("https://files.datawiz.uber.space/sleep.sav", "sav")
+#Survey
+# codebook_data <- rio::import("https://files.datawiz.uber.space/survey.sav", "sav")
+#Dark Triade
+# codebook_data <- rio::import("https://osf.io/j4fcb/download", "sav")
+# dict <- rio::import("https://osf.io/cs678/download", "csv")
+# var_label(codebook_data$C5) <- "Waste my time."
+# val_labels(codebook_data$C1) <- c("Very Inaccurate" = 1, "Very Accurate" = 6)
+compact_codebook(codebook_data)
+codebook_table <- codebook::codebook_table(codebook_data)
+rio::export(codebook_data, "~/Work/R_playground/export/rubenarslan/darktriade_matrix.csv", quote = TRUE)
+rio::export(codebook_table, "~/Work/R_playground/export/rubenarslan/darktriade_codebook.csv", quote = TRUE)
+```
