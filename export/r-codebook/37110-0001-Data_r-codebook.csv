@@ -1,0 +1,512 @@
+"name","label","data_type","value_labels","n_missing","complete_rate","n_unique","empty","min","median","max","mean","sd","whitespace","hist","format.spss","display_width"
+"CASEID","ICPSR Sequential record identifier","numeric",,0,1,,,"    1.0"," 5656","  11311",5656,3265.34878177916,,"▇▇▇▇▇","F5.0",
+"N2","Store ID","character",,0,1,54,0,"5",,"5",,,0,,"A5","7"
+"Q1","Q1. Please enter today's date (mm/dd/yy)","character",,0,1,138,568,"0",,"11",,,0,,"A11","13"
+"Q2","Q2. Are you male or female","numeric","1. Female,
+2. Male",70,0.993811334099549,,,"    1.0","    2","      2",1.64860777510898,0.477426440802418,,"▅▁▁▁▇","F1.0","4"
+"Q3","Q3. What is your age?","numeric",,284,0.974891698346742,,,"    0.0","   36","     95",38.2806747075361,13.593080605858,,"▁▇▅▂▁","F2.0","4"
+"Q4","Q4. How do you describe yourself? Race/Ethnicity (Check all that apply)","numeric","1. Latino/Latina,
+2. Black, African American,
+3. White,
+4. Asian or Asian American,
+5. Pacific Islander,
+6. American Indian or Alaska Native,
+7. Some other race or ethnicity,
+12. Latino/Latina and Black, African American,
+13. Latino/Latina and White,
+16. Latino/Latina and American Indian or Alaska Native,
+17. Latino/Latina and some other race or ethnicity,
+23. Black, African American and White,
+24. Black, African American and Asian or Asian American,
+25. Black, African American and Pacific Islander,
+26. Black, African American and American Indian or Alaska Native,
+27. Black, African American and some other race or ethnicity,
+34. White and Asian or Asian American,
+36. White and American Indian or Alaska Native,
+37. White and some other race or ethnicity,
+47. Asian or Asian American and some other race or ethnicity,
+56. Pacific Islander and American Indian or Alaska Native,
+123. Latino/Latina, Black, African American, and White,
+126. Latino/Latina, Black, African American, and American Indian or Alaska Native,
+127. Latino/Latina, Black, African American, and Some other race or ethnicity,
+236. Black, African American, White, and American Indian or Alaska Native,
+245. Black, African American, Asian or Asian American, and Pacific Islander,
+2367. Black, African American, White, American Indian or Alaska Native, and some other race or ethnicity,
+1234567. All options selected",28,0.99752453363982,,,"    1.0","    2","1234567",221.79455818488,16436.0671402877,,"▇▁▁▁▁","F7.0","9"
+"Q5","Q5. What is your highest level of education? (Check one)","numeric","1. Associate's degree or technical school certificate,
+2. Bachelor's degree,
+3. High school diploma or GED,
+4. Less than a high school diploma,
+5. Some college or technical school,
+6. Some graduate school or graduate degree",2393,0.788436035717443,,,"    1.0","    2","      6",2.40031397174254,1.11936872022784,,"▇▃▁▁▁","F1.0","4"
+"Q6","Q6. Are you currently working for pay at a full-time job or are you not working for pay","numeric","1. Yes, working,
+2. No, not working for pay",253,0.977632393245513,,,"    1.0","    1","      2",1.32763610056068,0.469372569882126,,"▇▁▁▁▃","F1.0","4"
+"Q7","Q7. Are you (Marital Status)","numeric","1. Married,
+2. Divorced,
+3. Living with partner,
+4. Separated,
+5. Widowed,
+6. Never married",1608,0.857837503315357,,,"    1.0","    5","      6",3.79439348655055,2.25358037597829,,"▇▁▂▁▇","F1.0","4"
+"Q8","Q8. What was your household income last year? (Check one)","numeric","1. Below $10,000,
+2. From $10,000 to $19,999,
+3. From $20,000 to $34,999,
+4. From $35,000 to $49,999,
+5. From $50,000 to $74,999,
+6. $75,000 or over",125,0.988948810892052,,,"    1.0","    3","      6",3.29340246736993,1.32163500906716,,"▇▅▅▃▂","F1.0","4"
+"Q9","Q9. How often do you visit this store or restaurant?","numeric","1. Almost every day (5-7 x/week),
+2. A few days per week (2-4 x/week),
+3. About once a week,
+4. Occasionally (1-3x per month),
+5. Seldom (less than once a month),
+6. Rarely (a few times a year or less)",71,0.993722924586686,,,"    1.0","    2","      6",2.50249110320285,1.2863084383008,,"▇▃▂▁▁","F1.0","4"
+"Q10","Q10. Yesterday, how much regular soda did you drink?","numeric","1. I did not drink regular soda yesterday,
+2. 1 can or less (1 cup=8oz, 1 can=12 oz),
+3. 2 cans (about one 20-oz bottle or 2.5 cups),
+4. 3 cans (about two 20-oz bottles or 4.5 cups),
+5. 4 or more cans (48 oz or more)",66,0.994164972151003,,,"    1.0","    2","      5",2.30449088483771,1.20864251164101,,"▇▆▆▂▂","F1.0","5"
+"Q11","Q11. Yesterday, how much diet soda did you drink?","numeric","1. I did not drink diet soda yesterday,
+2. 1 can or less (1 cup=8oz, 1 can=12 oz),
+3. 2 cans (about one 20-oz bottle or 2.5 cups),
+4. 3 cans (about two 20-oz bottles or 4.5 cups),
+5. 4 or more cans (48 oz or more)",122,0.989214039430643,,,"    1.0","    1","      5",1.52435427652158,0.964076481720754,,"▇▂▁▁▁","F1.0","5"
+"Q12","Q12. Yesterday, how many sports or energy drinks did you drink?","numeric","1. I did not drink sports or energy drinks yesterday,
+2. 1 can or less (1 cup=8oz, 1 can=12 oz),
+3. 2 cans (about one 20-oz bottle or 2.5 cups),
+4. 3 cans (about two 20-oz bottles or 4.5 cups),
+5. 4 or more cans (48 oz or more)",281,0.975156926885333,,,"    1.0","    1","      5",1.77579329102448,1.12233552489363,,"▇▂▂▁▁","F1.0","5"
+"Q13","Q13. Yesterday, how much 100% fruit juice, like orange or apple juice, did you drink?","numeric","1. I did not drink 100% fruit juice yesterday,
+2. 1 can or less (1 cup=8oz, 1 can=12 oz),
+3. 2 cans (about one 20-oz bottle or 2.5 cups),
+4. 3 cans (about two 20-oz bottles or 4.5 cups),
+5. 4 or more cans (48 oz or more)",290,0.974361241269561,,,"    1.0","    2","      5",2.02767443970602,1.10552807001975,,"▇▆▃▁▁","F1.0","5"
+"Q14","Q14. Yesterday, how many sweetened fruit-flavored drinks, sweetened tea drinks, or sweetened coofie drinks did you drink?","numeric","1. I did not drink sweetened fruit flavored, tea or coffee drinks yesterday,
+2. 1 can or less (1 cup=8oz, 1 can=12 oz),
+3. 2 cans (about one 20-oz bottle or 2.5 cups),
+4. 3 cans (about two 20-oz bottles or 4.5 cups),
+5. 4 or more cans (48 oz or more)",277,0.975510564936787,,,"    1.0","    2","      5",1.93257205002719,1.07000643374734,,"▇▅▃▁▁","F1.0","5"
+"Q15","Q15. Yesterday, how much tap water did you drink?","numeric","1. I did not drink tap water yesterday,
+2. A few sips,
+3. 1 cup (8 oz),
+4. 2 cups,
+5. 3 cups,
+6. 4 or more cups",299,0.973565555653788,,,"    1.0","    3","      6",3.05366872502724,1.88294453889276,,"▇▂▂▂▃","F1.0","5"
+"Q16","Q16. Yesterday, how much bottled water like Aquafina, did you drink?","numeric","1. I did not drink bottled water yesterday,
+2. Less than 1 bottle (a sip or a few sips),
+3. 1 bottle (about 16-20 oz),
+4. 2 bottles,
+5. 3 bottles,
+6. 4 or more bottles",299,0.973565555653788,,,"    1.0","    4","      6",3.61714493280058,1.70517658743096,,"▇▅▆▅▅","F1.0","5"
+"Q17","Q17. How often do you usually drink sugary drinks?","numeric","1. Every day,
+2. A few times a week,
+3. Once a week,
+4. Twice a month,
+5. Once a month,
+6. Less than once a month,
+7. Never",327,0.971090089293608,,,"    1.0","    2","      7",2.50455207574654,1.77972466036813,,"▇▂▁▁▂","F1.0","5"
+"Q18","Q18. How important is a large portion when you are deciding whether to buy a beverage?","numeric","1. Not at all Important,
+3. Somewhat Important,
+5. Very Important",396,0.964989832906021,,,"    1.0","    3","      5",3.02455336692625,1.33150253513416,,"▃▃▇▂▅","F1.0","5"
+"Q19","Q19. How important is a low price when you are deciding whether to buy a beverage?","numeric","1. Not at all Important,
+3. Somewhat Important,
+5. Very Important",399,0.96472460436743,,,"    1.0","    3","      5",3.48643695014663,1.37444609513373,,"▂▂▆▃▇","F1.0","5"
+"Q20","Q20. How important is it that a beverage is low in calorie when you are deciding whether to buy it?","numeric","1. Not at all Important,
+3. Somewhat Important,
+5. Very Important",379,0.966492794624702,,,"    1.0","    3","      5",2.99066959385291,1.40704892917834,,"▅▃▇▃▆","F1.0","5"
+"Q21","Q21. Do you believe Drinking tap water is (bad to good for health)","numeric","1. Bad for health,
+4. Neither,
+7. Good for health",344,0.969587127574927,,,"    1.0","    5","      7",4.76538707030182,2.07666619579873,,"▃▂▅▂▇","F1.0","5"
+"Q22","Q22. Do you believe Drinking bottled water is (bad to good for health)","numeric","1. Bad for health,
+4. Neither,
+7. Good for health",406,0.964105737777385,,,"    1.0","    7","      7",5.91774415405777,1.53723701012321,,"▁▁▂▁▇","F1.0","5"
+"Q23","Q23. About how much of your own money do you spend per week on sugary drinks? (filler)","numeric",,11311,0,,,"     NA","   NA","     NA",,,," ","F1.0","5"
+"Q23C","Q23c.About how much of your own money do you spend per week on sugary drinks? (Dollars)","numeric",,684,0.939527893201308,,,"    0.0","   10","   1500",15.5506022395784,30.6230379723056,,"▇▁▁▁▁","F7.2","10"
+"Q24","Q24. Are there any rules in your house limiting the amount of sugary drinks that you are allowed to have each day?","numeric","1. Yes,
+2. No",570,0.949606577667757,,,"    1.0","    2","      2",1.55879340843497,0.496554418711982,,"▆▁▁▁▇","F1.0","5"
+"Q25A","Q25a. Yesterday, about how many servings of: Salty snacks","character",,0,1,30,1936,"0",,"2",,,0,,"A2","6"
+"Q25B","Q25b. Yesterday, about how many servings of: Cookies","character",,0,1,24,2084,"0",,"3",,,0,,"A3","6"
+"Q25C","Q25c. Yesterday, about how many servings of: Candy","character",,0,1,23,2263,"0",,"3",,,0,,"A3","6"
+"Q25D","Q25d. Yesterday, about how many servings of: Fruit","character",,0,1,31,2104,"0",,"3",,,0,,"A3","6"
+"Q25E","Q25e. Yesterday, about how many servings of: Dark green vegetables","character",,0,1,44,2198,"0",,"3",,,0,,"A3","6"
+"Q26","Q26. How many days per week do you do moderate activities for at least 10 minutes at a time?","numeric",,1231,0.891167889664928,,,"    0.0","    3","    140",3.42430555555556,4.64260697215,,"▇▁▁▁▁","F5.1",
+"Q27","Q27. How many days per week do you do vigorous activities for at least 10 minutes at a time?","numeric",,1210,0.893024489435063,,,"    0.0","    2","    240",3.05514305514306,6.14707759043275,,"▇▁▁▁▁","F3.0","5"
+"Q28","Q28. How much do you weigh without your shoes on? (estimate in pounds) (filler)","numeric",,11311,0,,,"     NA","   NA","     NA",,,," ","F1.0","5"
+"Q28A","Q28. How much do you weigh without your shoes on? (estimate in pounds) (pounds)","numeric",,655,0.942091769074352,,,"    0.0","  175","    520",177.022879129129,49.7022918705108,,"▁▇▂▁▁","F5.1",
+"Q29","Q29. How tall are you without your shoes on? (filler)","numeric",,11311,0,,,"     NA","   NA","     NA",,,," ","F1.0","5"
+"Q29A","Q29a. How tall are you without your shoes on? (Feet)","numeric",,635,0.943859959331624,,,"    0.0","    5","    510",5.43012364181341,8.89120752033845,,"▇▁▁▁▁","F3.0","6"
+"Q29B","Q29b. How tall are you without your shoes on? (Inches)","numeric",,795,0.929714437273451,,,"    0.0","    5","    512",5.56437809052872,8.90057842736499,,"▇▁▁▁▁","F3.0","6"
+"Q30A","Q30a. Did you purchase today?  Soda","numeric","1. Yes,
+2. No",1042,0.907877287596145,,,"    1.0","    1","      2",1.3995520498588,0.489830148271384,,"▇▁▁▁▅","F1.0","6"
+"Q30B","Q30b. Did you purchase today?  Diet soda","numeric","1. Yes,
+2. No",1932,0.829192821147555,,,"    1.0","    2","      2",1.82162277428297,0.382850387226261,,"▂▁▁▁▇","F1.0","6"
+"Q30C","Q30c. Did you purchase today?  Sports/energy drinks","numeric","1. Yes,
+2. No",1852,0.836265582176642,,,"    1.0","    2","      2",1.65725763822814,0.474651296379289,,"▅▁▁▁▇","F1.0","6"
+"Q30D","Q30d. Did you purchase today?  Bottled water","numeric","1. Yes,
+2. No",1330,0.882415347891433,,,"    1.0","    1","      2",1.33303276224827,0.471321756579436,,"▇▁▁▁▃","F1.0","6"
+"Q30E","Q30e. Did you purchase today?  Sweetened fruit drinks, or tea or coffee drinks","numeric","1. Yes,
+2. No",1699,0.849792237644771,,,"    1.0","    2","      2",1.5650228880566,0.495779785771958,,"▆▁▁▁▇","F1.0","6"
+"Q30F","Q30f. Did you purchase today?  100% fruit juice","numeric","1. Yes,
+2. No",1552,0.862788436035718,,,"    1.0","    2","      2",1.51019571677426,0.499921650571857,,"▇▁▁▁▇","F1.0","6"
+"Q31","Q31. Have you heard of or seen any information about Mixify or the Balance Calories Initiative of the ABA?","numeric","1. Yes,
+2. No",590,0.947838387410485,,,"    1.0","    2","      2",1.75701893480086,0.428903748939231,,"▂▁▁▁▇","F1.0","5"
+"Q32","Q32. If yes, where did you hear of Mixify or the Balance Calories Initiative (check all)","numeric","1. On the internet,
+2. At a store,
+3. On a billboard,
+4. On a bus advertisement,
+12. On the internet and at a store,
+13. On the internet and on a billboard,
+23. At a store and on a billboard,
+24. At a store and on a bus advertisement,
+34. On a billboard and on a bus advertisement,
+123. On the internet, at a store, and on a billboard,
+124. On the internet, at a store, and on a bus advertisement,
+134. On the internet, on a billboard, and on a bus advertisement,
+234. At a store, on a billboard, and on a bus advertisement,
+1234. All options selected",7215,0.362125364689241,,,"    1.0","    2","   1234",9.379150390625,88.6803318939512,,"▇▁▁▁▁","F4.0","6"
+"Q32A","Q32a. If yes, where did you hear of Mixify or the the Balance Calories Initiative (other specify)","character",,0,1,1,0,"17",,"17",,,0,,"A17","19"
+"Q33","Q33. How old is your child?","character",,0,1,2,11310,"0",,"6",,,0,,"A6",
+"Q33A","Q33. How old is your child? Years","numeric",,5193,0.540889399699408,,,"    0.0","    7","    111",7.98234717227852,6.19721250091748,,"▇▁▁▁▁","F3.0","6"
+"Q34","Q34. Is your child  a boy or a girl?","numeric","1. Boy,
+2. Girl",5189,0.541243037750862,,,"    1.0","    2","      2",1.52303168899053,0.499510057596097,,"▇▁▁▁▇","F1.0","5"
+"Q35","Q35. How often does your child usually drink sugary drinks?","numeric","1. Every day,
+2. A few times a week,
+3. Once a week,
+4. Twice a month,
+5. Once a month,
+6. Less than once a month,
+7. Never,
+12. Every day and a few times a week,
+15. Every day and once a month,
+17. Every day and never,
+23. A few times a week and once a week,
+25. A few times a week and once a month,
+26. A few times a week and less than once a month,
+27. A few times a week and never,
+36. Once a week and less than once a month,
+45. Twice a month and once a month,
+56. Once a month and less than once a month,
+57. Once a month and never,
+67. Less than once a month and never,
+125. Every day, a few times a week, and once a month,
+256. A few times a week, once a month, and less than once a month,
+123456. Every day, a few times a week, once a week, Twice a month, once a month, and less than once a month,
+1234567. All options selected",4862,0.570152948457254,,,"    1.0","    2","1234567",424.189951930532,21847.2092659176,,"▇▁▁▁▁","F7.0","9"
+"Q36","Q36. Yesterday, how many sugary drinks did your child drink?","numeric","1. My child did not drink sugary drinks yesterday,
+2. 1 can or less (1 cup=8oz, 1 can=12 oz),
+3. 2 cans (about one 20-oz bottle or 2.5 cups),
+4. 3 cans (about two 20-oz bottles or 4.5 cups),
+5. 4 or more cans (48 oz or more),
+12. My child did not drink sugary drinks yesterday and 1 can or less (1 cup=8oz, 1 can=12 oz),
+13. My child did not drink sugary drinks yesterday and 2 cans (about one 20-oz bottle or 2.5 cups),
+14. My child did not drink sugary drinks yesterday and 3 cans (about two 20-oz bottles or 4.5 cups),
+23. 1 can or less (1 cup=8oz, 1 can=12 oz) and 2 cans (about one 20-oz bottle or 2.5 cups),
+34. 2 cans (about one 20-oz bottle or 2.5 cups) and 3 cans (about two 20-oz bottles or 4.5 cups),
+45. 3 cans (about two 20-oz bottles or 4.5 cups) and 4 or more cans (48 oz or more),
+124. Did not drink sugary drinks yesterday, 1 can or less, and 3 cans,
+1234. Did not drink sugary drinks yesterday, 1 can or less, 2 cans, and 3 cans,
+1235. Did not drink sugary drinks yesterday, 1 can or less, 2 cans, and 4 or more cans,
+12345. All options selected",4926,0.564494739633985,,,"    1.0","    2","  12345",6.36444792482381,219.521556583344,,"▇▁▁▁▁","F5.0","7"
+"Q37","Q37. Yesterday, how much 100% juice did your child drink?","numeric","1. My child did not drink 100% juice yesterday,
+2. 1 can or less (1 cup=8oz, 1 can=12 oz),
+3. 2 cans (about one 20-oz bottle or 2.5 cups),
+4. 3 cans (about two 20-oz bottles or 4.5 cups),
+5. 4 or more cans (48 oz or more),
+12. My child did not drink 100% juice yesterday and 1 can or less (1 cup=8oz, 1 can=12 oz),
+13. My child did not drink 100% juice yesterday and 2 cans (about one 20-oz bottle or 2.5 cups),
+15. My child did not drink 100% juice yesterday and 4 or more cans (48 oz or more),
+23. 1 can or less (1 cup=8oz, 1 can=12 oz) and 2 cans (about one 20-oz bottle or 2.5 cups),
+24. 1 can or less (1 cup=8oz, 1 can=12 oz) and 3 cans (about two 20-oz bottles or 4.5 cups),
+25. 1 can or less (1 cup=8oz, 1 can=12 oz) and 4 or more cans (48 oz or more),
+34. 2 cans (about one 20-oz bottle or 2.5 cups) and 3 cans (about two 20-oz bottles or 4.5 cups),
+35. 2 cans (about one 20-oz bottle or 2.5 cups) and 4 or more cans (48 oz or more),
+45. 3 cans (about two 20-oz bottles or 4.5 cups) and 4 or more cans (48 oz or more),
+1234. Did not drink 100% juice yesterday, 1 can or less, 2 cans, and 3 cans,
+1345. Did not drink 100% juice yesterday, 2 cans, 3 cans, and 4 or more cans,
+12345. All options selected",4897,0.567058615507029,,,"    1.0","    2","  12345",6.82756470221391,219.113418232116,,"▇▁▁▁▁","F5.0","7"
+"Q38","Q38. Yesterday, how much tap water did your child drink?","numeric","1. My child did not drink tap water yesterday,
+2. A few sips,
+3. 1 cup (8 oz),
+4. 2 cups,
+5. 3 cups,
+6. 4 cups or more,
+12. My child did not drink tap water yesterday and A few sips,
+13. My child did not drink tap water yesterday and 1 cup (8 oz),
+14. My child did not drink tap water yesterday and 2 cups,
+15. My child did not drink tap water yesterday and 3 cups,
+16. My child did not drink tap water yesterday and 4 cups or more,
+23. A few sips and 1 cup (8 oz),
+34. 1 cup (8 oz) and 2 cups,
+36. 1 cup (8 oz) and 4 cups or more,
+45. 2 cups and 3 cups,
+46. 2 cups and 4 cups or more,
+56. 3 cups and 4 cups or more,
+123. My child did not drink tap water yesterday, A few sips, and 1 cup (8 oz),
+126. My child did not drink tap water yesterday, A few sips, and 4 cups or more,
+1234. My child did not drink tap water yesterday, A few sips, 1 cup (8 oz), and 2 cups,
+2345. A few sips, 1 cup (8 oz), 2 cups, and 3 cups,
+123456. All options selected",4894,0.567323844045619,,,"    1.0","    3"," 123456",42.1179678977715,2179.54029754414,,"▇▁▁▁▁","F6.0",
+"Q39","Q39. Yesterday, how much bottled water did your child drink?","numeric","1. My child did not drink bottled water yesterday,
+2. Less than 1 bottle (a sip or a few sips),
+3. 1 bottle (about 16-20 oz),
+4. 2 bottles,
+5. 3 bottles,
+6. 4 or more bottles",4947,0.562638139863849,,,"    1.0","    3","      6",3.23302954116908,1.56002117548533,,"▇▆▆▃▂","F1.0","5"
+"Q40","Q40. How much does your child weigh without shoes on?  (filler)","numeric",,11311,0,,,"     NA","   NA","     NA",,,," ","F1.0","5"
+"Q40A","Q40. How much does your child weigh without shoes on?  (Pounds)","numeric",,5256,0.535319600389002,,,"    0.0","   65","    640",75.9289843104872,50.4155042579431,,"▇▁▁▁▁","F3.0","6"
+"Q41","Q41. How tall is your child without shoes on?","numeric",,11311,0,,,"     NA","   NA","     NA",,,," ","F1.0","5"
+"Q41A","Q41. How tall is your child without shoes on? Feet","numeric",,5666,0.499071700114932,,,"    0.0","    4","    410",4.02409211691763,6.49083095695084,,"▇▁▁▁▁","F3.0","6"
+"Q41B","Q41. How tall is your child without shoes on? Inches","numeric",,5759,0.490849615418619,,,"    0.0","    4","    911",6.30853746397695,14.8654717720017,,"▇▁▁▁▁","F3.0","6"
+"STORE_ID","Store ID (cleaned)","character",,0,1,48,0,"5",,"5",,,0,,"A5","10"
+"AGE","[Recode] Respondent age","numeric",,372,0.967111661214747,,,"   18.0","   36","     95",38.4974860590548,13.4201643778246,,"▇▆▃▁▁","F2.0","5"
+"SURVEY_DATE","[Recode] Date of survey","numeric",,594,0.947484749359031,,,"20667.0","20754","  20788",20749.9281515349,21.8012517077532,,"▁▂▅▇▇","F5.0","13"
+"SURVEY_MONTH","[Recode] Month of survey","numeric",,594,0.947484749359031,,,"    8.0","   10","     11",10.2469907623402,0.786884810817376,,"▁▃▁▇▇","F2.0","14"
+"SURVEY_YEAR","[Recode] Year of survey","numeric",,594,0.947484749359031,,," 2016.0"," 2016","   2016",2016,0,,"▁▁▇▁▁","F4.0","13"
+"RACE_LATINO","[Derived] How do you describe yourself: Latino/Latina","numeric","0. Not selected,
+1. Selected",28,0.99752453363982,,,"    0.0","    0","      1",0.0162190906673757,0.126322785182886,,"▇▁▁▁▁","F1.0","13"
+"RACE_BLACK","[Derived] How do you describe yourself: Black, African American","numeric","0. Not selected,
+1. Selected",28,0.99752453363982,,,"    0.0","    1","      1",0.853230523796863,0.353891645677967,,"▂▁▁▁▇","F1.0","12"
+"RACE_WHITE","[Derived] How do you describe yourself: White","numeric","0. Not selected,
+1. Selected",28,0.99752453363982,,,"    0.0","    0","      1",0.119205884959674,0.324044979042392,,"▇▁▁▁▁","F1.0","12"
+"RACE_ASIAN","[Derived] How do you describe yourself: Asian or Asian American","numeric","0. Not selected,
+1. Selected",28,0.99752453363982,,,"    0.0","    0","      1",0.00957192236107418,0.0973711505867333,,"▇▁▁▁▁","F1.0","12"
+"RACE_PACIFIC","[Derived] How do you describe yourself: Pacific Islander","numeric","0. Not selected,
+1. Selected",28,0.99752453363982,,,"    0.0","    0","      1",0.00186120712576442,0.0431034534362966,,"▇▁▁▁▁","F1.0","14"
+"RACE_AMINDIAN","[Derived] How do you describe yourself: American Indian or Alaska Native","numeric","0. Not selected,
+1. Selected",28,0.99752453363982,,,"    0.0","    0","      1",0.00434281662678366,0.0657597128343701,,"▇▁▁▁▁","F1.0","15"
+"RACE_OTHER","[Derived] How do you describe yourself: Some other race or ethnicity","numeric","0. Not selected,
+1. Selected",28,0.99752453363982,,,"    0.0","    0","      1",0.00912877780732075,0.0951117499676273,,"▇▁▁▁▁","F1.0","12"
+"RACE_3G","[Derived] 3 Race/Ethnicity Groups (Black, White, Multiple/Other)","numeric","1. Black,
+2. White,
+3. Multi/Other",28,0.99752453363982,,,"    1.0","    1","      3",1.2005672250288,0.497744992031761,,"▇▁▁▁▁","F1.0","9"
+"EDUCATION_2G","[Derived] Education level less than bachelor's (BA) or bachelor's (BA) and above","numeric","1. Less than BA,
+2. BA or more",117,0.989656086994961,,,"    1.0","    1","      2",1.14204037877434,0.349107142826142,,"▇▁▁▁▁","F1.0","14"
+"MARRIED","[Derived] Marital status (married vs not married)","numeric","1. Married,
+2. Not married",172,0.984793563787463,,,"    1.0","    2","      2",1.71729957805907,0.450332210258935,,"▃▁▁▁▇","F1.0","9"
+"HH_INCOME_EST","[Derived] Estimated household income (max $75k)","numeric",,125,0.988948810892052,,," 5000.0","15000","  75000",23704.4072948328,19540.8398778305,,"▇▃▂▁▂","F5.0","15"
+"HH_INCOME_3G","[Derived] Household income (3 categories)","numeric","1. < 35K,
+2. 35K-74.9K,
+3. >75K",125,0.988948810892052,,,"    1.0","    1","      3",1.27364562846415,0.524020318127619,,"▇▁▂▁▁","F1.0","14"
+"HH_INCOME_2G","[Derived] Household income (2 categories)","numeric","1. < 50K,
+2. 50K +",125,0.988948810892052,,,"    1.0","    1","      2",1.10799213302342,0.310384349864538,,"▇▁▁▁▁","F1.0","14"
+"HH_INCOME_75","[Derived] Household income (above/below $75k)","numeric","1. < 75K,
+2. 75K +",125,0.988948810892052,,,"    1.0","    1","      2",1.03790452351153,0.190973901427587,,"▇▁▁▁▁","F1.0","14"
+"VISIT_FREQ","[Recode] How often do you visit this store or restaurant?","numeric","1. Almost every day (5-7 x/week),
+2. A few days per week (2-4 x/week),
+3. About once a week,
+4. Occasionally (1-3x per month),
+5. Seldom (less than once a month),
+6. Rarely (a few times a year or less)",71,0.993722924586686,,,"    1.0","    2","      6",2.50249110320285,1.2863084383008,,"▇▃▂▁▁","F1.0","12"
+"REGULAR_SODA","[Recode] Yesterday, how much regular soda did you drink?","numeric","1. None,
+2. 1 can or less,
+3. 2 cans,
+4. 3 cans,
+5. 4 +",66,0.994164972151003,,,"    1.0","    2","      5",2.30449088483771,1.20864251164101,,"▇▆▆▂▂","F1.0","14"
+"REGULAR_SODA_TOPCODE","[Recode] Yesterday, how much regular soda did you drink? (0 to 4)","numeric",,66,0.994164972151003,,,"    0.0","    1","      4",1.30449088483771,1.20864251164101,,"▇▆▆▂▂","F1.0","22"
+"REGULAR_SODA_ANY","[Recode] Yesterday, how much regular soda did you drink (any)","numeric","1. None,
+2. Some",66,0.994164972151003,,,"    1.0","    2","      2",1.67158737216541,0.469656671740606,,"▃▁▁▁▇","F1.0","18"
+"REGULAR_SODA_2CANS","[Recode] Yesterday, how much regular soda did you drink (2 cans +)","numeric","1. < 2 cans,
+2. 2 or more",66,0.994164972151003,,,"    1.0","    1","      2",1.40186749666518,0.490297245978307,,"▇▁▁▁▆","F1.0","20"
+"DIET_SODA","[Recode] Yesterday, how much diet soda did you drink?","numeric","1. None,
+2. 1 can or less,
+3. 2 cans,
+4. 3 cans,
+5. 4 +",122,0.989214039430643,,,"    1.0","    1","      5",1.52435427652158,0.964076481720754,,"▇▂▁▁▁","F1.0","11"
+"DIET_SODA_TOPCODE","[Recode] Yesterday, how much diet soda did you drink? (0 to 4)","numeric",,122,0.989214039430643,,,"    0.0","    0","      4",0.524354276521584,0.964076481720754,,"▇▂▁▁▁","F1.0","19"
+"DIET_SODA_ANY","[Recode] Yesterday, how much diet soda did you drink (any)","numeric","1. None,
+2. Some",122,0.989214039430643,,,"    1.0","    1","      2",1.29207257127536,0.454735819406792,,"▇▁▁▁▃","F1.0","15"
+"DIET_SODA_2CANS","[Recode] Yesterday, how much diet soda did you drink (2 cans +)","numeric","1. < 2 cans,
+2. 2 or more",122,0.989214039430643,,,"    1.0","    1","      2",1.14827062293324,0.355383923352806,,"▇▁▁▁▂","F1.0","17"
+"SPORTS_DRINK","[Recode] Yesterday, how many sports or energy drinks did you drink?","numeric","1. None,
+2. 1 can or less,
+3. 2 cans,
+4. 3 cans,
+5. 4 +",281,0.975156926885333,,,"    1.0","    1","      5",1.77579329102448,1.12233552489363,,"▇▂▂▁▁","F1.0","14"
+"SPORTS_DRINK_TOPCODE","[Recode] Yesterday, how many sports or energy drinks did you drink? (0 to 4)","numeric",,281,0.975156926885333,,,"    0.0","    0","      4",0.775793291024479,1.12233552489363,,"▇▂▂▁▁","F1.0","22"
+"SPORTS_DRINK_ANY","[Recode] Yesterday, how many sports or energy drinks did you drink (any)","numeric","1. None,
+2. Some",281,0.975156926885333,,,"    1.0","    1","      2",1.4040797824116,0.490735310675568,,"▇▁▁▁▆","F1.0","18"
+"SPORTS_DRINK_2CANS","[Recode] Yesterday, how many sports or energy drinks did you drink (2 cans +)","numeric","1. < 2 cans,
+2. 2 or more",281,0.975156926885333,,,"    1.0","    1","      2",1.23662737987307,0.425030870808037,,"▇▁▁▁▂","F1.0","20"
+"FRUIT_JUICE","[Recode] Yesterday, how much 100% fruit juice did you drink?","numeric","1. None,
+2. 1 can or less,
+3. 2 cans,
+4. 3 cans,
+5. 4 +",290,0.974361241269561,,,"    1.0","    2","      5",2.02767443970602,1.10552807001975,,"▇▆▃▁▁","F1.0","13"
+"FRUIT_JUICE_TOPCODE","[Recode] Yesterday, how much 100% fruit juice did you drink? (0 to 4)","numeric",,290,0.974361241269561,,,"    0.0","    1","      4",1.02767443970602,1.10552807001975,,"▇▆▃▁▁","F1.0","21"
+"FRUIT_JUICE_ANY","[Recode] Yesterday, how much 100% fruit juice did you drink (any)","numeric","1. None,
+2. Some",290,0.974361241269561,,,"    1.0","    2","      2",1.58923872606842,0.491994322274031,,"▆▁▁▁▇","F1.0","17"
+"FRUIT_JUICE_2CANS","[Recode] Yesterday, how much 100% fruit juice did you drink (2 cans +)","numeric","1. < 2 cans,
+2. 2 or more",290,0.974361241269561,,,"    1.0","    1","      2",1.29135287179022,0.454406328626273,,"▇▁▁▁▃","F1.0","19"
+"SWEET_DRINK","[Recode] Yesterday, how much sweetened fruit/tea/coffee did you drink?","numeric","1. None,
+2. 1 can or less,
+3. 2 cans,
+4. 3 cans,
+5. 4 +",277,0.975510564936787,,,"    1.0","    2","      5",1.93257205002719,1.07000643374734,,"▇▅▃▁▁","F1.0","13"
+"SWEET_DRINK_TOPCODE","[Recode] Yesterday, how much sweetened fruit/tea/coffee did you drink? (0 to 4)","numeric",,277,0.975510564936787,,,"    0.0","    1","      4",0.932572050027189,1.07000643374734,,"▇▅▃▁▁","F1.0","21"
+"SWEET_DRINK_ANY","[Recode] Yesterday, how much sweetened fruit/tea/coffee did you drink (any)","numeric","1. None,
+2. Some",277,0.975510564936787,,,"    1.0","    2","      2",1.5494834148994,0.497567913967312,,"▆▁▁▁▇","F1.0","17"
+"SWEET_DRINK_2CANS","[Recode] Yesterday, how much sweetened fruit/tea/coffee did you drink (2 cans +)","numeric","1. < 2 cans,
+2. 2 or more",277,0.975510564936787,,,"    1.0","    1","      2",1.25811129236904,0.437615366755773,,"▇▁▁▁▃","F1.0","19"
+"SSB_CONSUMPTION","[Derived] Estimate of Sugar Sweetened Beverages (SSB) consumed yesterday (soda, sports, and sweet drinks)","numeric",,26,0.997701352665547,,,"    0.0","    3","     12",2.96996012405849,2.37679047757787,,"▇▅▃▁▁","F2.0","17"
+"SSB_CONSUMPTION_ANY","[Derived] Sugar Sweetened Beverages (SSB) consumed (none vs some)","numeric","1. None,
+2. Some",26,0.997701352665547,,,"    1.0","    2","      2",1.84953478068232,0.357542675940407,,"▂▁▁▁▇","F1.0","21"
+"SSB_CONSUMPTION_2CUP","[Derived] Sugar Sweetened Beverages (SSB) consumed (2 or more cups)","numeric","1. None to 1cup,
+2. 2+",26,0.997701352665547,,,"    1.0","    2","      2",1.69206911829863,0.461658249986832,,"▃▁▁▁▇","F1.0","22"
+"SSB_CONSUMPTION_3CUP","[Derived] Sugar Sweetened Beverages (SSB) consumed (3 or more cups)","numeric","1. None to 2cup,
+2. 3+",26,0.997701352665547,,,"    1.0","    2","      2",1.5111209570226,0.499898458308007,,"▇▁▁▁▇","F1.0","22"
+"SSB_CONSUMPTION_4CUP","[Derived] Sugar Sweetened Beverages (SSB) consumed (4 or more cups)","numeric","1. None to 3cup,
+2. 4+",26,0.997701352665547,,,"    1.0","    1","      2",1.35356668143553,0.478097833295734,,"▇▁▁▁▅","F1.0","22"
+"HEAVY_SSB","[Derived] Indicator if consume 4 or more Sugar Sweetened Beverages (SSB)","numeric","0. No,
+1. Yes",26,0.997701352665547,,,"    0.0","    0","      1",0.353566681435534,0.478097833295734,,"▇▁▁▁▅","F1.0","11"
+"TAP_WATER","[Recode] Yesterday, how much tap water did you drink?","numeric","1. None,
+2. A few sips,
+3. 1 cup,
+4. 2 cups,
+5. 3 cups,
+6. 4 +",299,0.973565555653788,,,"    1.0","    3","      6",3.05366872502724,1.88294453889276,,"▇▂▂▂▃","F1.0","11"
+"TAP_WATER_TOPCODE","[Recode] Yesterday, how much tap water did you drink? (0 to 4)","numeric",,299,0.973565555653788,,,"    0.0","    1","      4",1.45246095168907,1.49515195442938,,"▇▂▂▂▃","F3.1","19"
+"TAP_WATER_ANY","[Recode] Yesterday, how much tap water did you drink? (Any)","numeric","1. None,
+2. Some",299,0.973565555653788,,,"    1.0","    2","      2",1.66009807482746,0.473697142914976,,"▅▁▁▁▇","F1.0","15"
+"TAP_WATER_2CUPS","[Recode] Yesterday, how much tap water did you drink? (2 cups +)","numeric","1. < 2 cups,
+2. 2 or more",299,0.973565555653788,,,"    1.0","    1","      2",1.411914275336,0.492202097731188,,"▇▁▁▁▆","F1.0","17"
+"BOTTLED_WATER","[Recode] Yesterday, how much bottled water did you drink?","numeric","1. None,
+2. Less than 1 bottle,
+3. 1 bottle,
+4. 2 bottles,
+5. 3 bottles,
+6. 4 +",299,0.973565555653788,,,"    1.0","    4","      6",3.61714493280058,1.70517658743096,,"▇▅▆▅▅","F1.0","15"
+"BOTTLED_WATER_TOPCODE","[Recode] Yesterday, how much bottled water did you drink? (0 to 4)","numeric",,299,0.973565555653788,,,"    0.0","    2","      4",1.84775699237196,1.39149089050132,,"▇▅▆▅▅","F3.1","23"
+"BOTTLED_WATER_ANY","[Recode] Yesterday, how much bottled water did you drink? (Any)","numeric","1. None,
+2. Some",299,0.973565555653788,,,"    1.0","    2","      2",1.80830003632401,0.393656144360447,,"▂▁▁▁▇","F1.0","19"
+"BOTTLED_WATER_2","[Recode] Yesterday, how much bottled water did you drink? (2 cups +)","numeric","1. < 2 bottle,
+2. 2 or more",299,0.973565555653788,,,"    1.0","    2","      2",1.56574645840901,0.495681061978423,,"▆▁▁▁▇","F1.0","17"
+"WATER_CONSUMPTION","[Derived] Estimate of tap and bottled water consumed yesterday","numeric",,11311,0,,,"     NA","   NA","     NA",,,," ","F1.0","19"
+"HOW_OFTEN","[Recode] How often do you usually drink sugary drinks?","numeric","1. Every day,
+2. A few times a week,
+3. Once a week,
+4. Twice a month,
+5. Once a month,
+6. Less than once a month,
+7. Never",327,0.971090089293608,,,"    1.0","    2","      7",2.50455207574654,1.77972466036813,,"▇▂▁▁▂","F1.0","11"
+"LARGE_PORTION","[Recode] how important is a large portion?","numeric","1. Not at all Important,
+3. Somewhat Important,
+5. Very Important",396,0.964989832906021,,,"    1.0","    3","      5",3.02455336692625,1.33150253513416,,"▃▃▇▂▅","F1.0","15"
+"LOW_PRICE","[Recode] how important a low price?","numeric","1. Not at all Important,
+3. Somewhat Important,
+5. Very Important",399,0.96472460436743,,,"    1.0","    3","      5",3.48643695014663,1.37444609513373,,"▂▂▆▃▇","F1.0","11"
+"LOW_CALORIE","[Recode] how important is it that the beverage is low in calories?","numeric","1. Not at all Important,
+3. Somewhat Important,
+5. Very Important",379,0.966492794624702,,,"    1.0","    3","      5",2.99066959385291,1.40704892917834,,"▅▃▇▃▆","F1.0","13"
+"HEALTH_TAP_WATER","[Recode] do you believe drinking tap water is healthy?","numeric","1. Bad for health,
+4. Neither,
+7. Good for health",344,0.969587127574927,,,"    1.0","    5","      7",4.76538707030182,2.07666619579873,,"▃▂▅▂▇","F1.0","18"
+"HEALTH_BOTTLED_WATER","[Recode] do you believe drinking bottled water is healthy?","numeric","1. Bad for health,
+4. Neither,
+7. Good for health",406,0.964105737777385,,,"    1.0","    7","      7",5.91774415405777,1.53723701012321,,"▁▁▂▁▇","F1.0","22"
+"Q25A_RECODE","[Recode] 25a. Yesterday, about how many servings of: salty snacks","numeric",,1939,0.828573954557511,,,"    0.0","    1","     15",1.22087067861716,1.30695086069203,,"▇▁▁▁▁","F2.0","13"
+"Q25B_RECODE","[Recode] 25b. Yesterday, about how many servings of: cookies","numeric",,2084,0.815754575192291,,,"    0.0","    1","     20",1.00558144575702,1.35565161540743,,"▇▁▁▁▁","F4.1","13"
+"Q25C_RECODE","[Recode] 25c. Yesterday, about how many servings of: candy","numeric",,2264,0.799840862876846,,,"    0.0","    1","     20",1.01061125234884,1.32885714055243,,"▇▁▁▁▁","F4.1","13"
+"Q25D_RECODE","[Recode] 25d. Yesterday, about how many servings of: fruit","numeric",,2105,0.813897975422155,,,"    0.0","    1","     23",1.58950684336302,1.65875441187691,,"▇▁▁▁▁","F4.1","13"
+"Q25E_RECODE","[Recode] 25e. Yesterday, about how many servings of: dark green vegetables","numeric",,2207,0.80488020511007,,,"    0.0","    1","     33",1.65930360281195,1.7689713968278,,"▇▁▁▁▁","F4.1","13"
+"Q25_SUGARSNACK","[Derived] Servings of cookies and candy","numeric",,1614,0.857307046238175,,,"    0.0","    1","     20",1.89971125090234,2.22950232331897,,"▇▁▁▁▁","F4.1","16"
+"Q25_JUNKSNACK","[Derived] Servings of salty snacks, cookies and candy","numeric",,1007,0.910971620546371,,,"    0.0","    2","     30",2.89824340062112,3.00122201979598,,"▇▁▁▁▁","F4.1","15"
+"Q25_FRUITVEG","[Derived] Servings of fruit and dark green vegetables","numeric",,1699,0.849792237644771,,,"    0.0","    2","     38",3.09397627965044,3.00801311179309,,"▇▁▁▁▁","F4.1","14"
+"Q26_TOPCODE","[Recode] [Top code to 7] How many days per week (DPW) do you do moderate activities for at least 10 min at a time?","numeric",,1231,0.891167889664928,,,"    0.0","    3","      7",3.07738095238095,2.14949152281227,,"▇▅▇▃▃","F3.1","13"
+"Q27_TOPCODE","[Recode] [Top code to 7] How many days per week (DPW) do you do vigorous activities for at least 10 min at a time?","numeric",,1210,0.893024489435063,,,"    0.0","    2","      7",2.67349767349767,2.15657400024534,,"▇▅▆▂▃","F1.0","13"
+"BCI","Balance Calories Initiative (recode of Q31)","numeric","1. Yes,
+2. No",2159,0.809123861727522,,,"    1.0","    2","      2",1.71536276223776,0.451266142801669,,"▃▁▁▁▇","F1.0","5"
+"MIXIFY_INTERNET","[Derived] have you heard of Mixify or the Balance Calories Initiative (BCI): internet","numeric","0. Not selected,
+1. Selected",8825,0.21978604897887,,,"    0.0","    0","      1",0.427594529364441,0.494829204640176,,"▇▁▁▁▆","F1.0","17"
+"MIXIFY_STORE","[Derived] have you heard of Mixify or the Balance Calories Initiative (BCI): store","numeric","0. Not selected,
+1. Selected",8825,0.21978604897887,,,"    0.0","    0","      1",0.439259855189059,0.496396770513342,,"▇▁▁▁▆","F1.0","14"
+"MIXIFY_BILLBOARD","[Derived] have you heard of Mixify or the Balance Calories Initiative (BCI): billboard","numeric","0. Not selected,
+1. Selected",8825,0.21978604897887,,,"    0.0","    0","      1",0.156074014481094,0.362998513048451,,"▇▁▁▁▂","F1.0","18"
+"MIXIFY_BUS","[Derived] have you heard of Mixify or the Balance Calories Initiative (BCI): bus","numeric","0. Not selected,
+1. Selected",8825,0.21978604897887,,,"    0.0","    0","      1",0.0470635559131134,0.211817433973878,,"▇▁▁▁▁","F1.0","12"
+"STATE","[Derived] State","numeric","1. AL,
+2. MI",5,0.999557952435682,,,"    1.0","    1","      2",1.4862904652397,0.499834118623321,,"▇▁▁▁▇","F1.0","7"
+"LOCATION","[Derived] Location","numeric","1. Birmingham/S.Delta,
+2. Montgomery/N.Delta",0,1,,,"    1.0","    1","      2",1.39908054106622,0.489731014571974,,"▇▁▁▁▅","F1.0","10"
+"LOCATION_FOUR","[Derived] Location (four locations)","numeric","1. Birmingham,
+2. S.Delta,
+3. Montgomery,
+4. N.Delta",0,1,,,"    1.0","    2","      4",2.28467863142074,1.09267049331878,,"▇▇▁▆▅","F1.0","15"
+"LOCATION_TEN","County code","numeric","1. CO,
+2. HU,
+3. JE,
+4. LE,
+5. MO,
+6. PA,
+7. QU,
+8. SH,
+9. TU,
+10. YA",0,1,,,"    1.0","    4","     10",3.66987887896738,1.55930020504348,,"▂▇▃▁▁","F2.0","14"
+"Q26_RC","[Recode] How many days per week do you do moderate activities for at least 10 minutes at a time?","numeric",,1231,0.891167889664928,,,"    0.0","    3","      7",3.07738095238095,2.14949152281227,,"▇▅▇▃▃","F3.1",
+"Q27_RC","[Recode] How many days per week do you do vigorous activities for at least 10 minutes at a time?","numeric",,1210,0.893024489435063,,,"    0.0","    2","      7",2.67349767349767,2.15657400024534,,"▇▅▆▂▃","F1.0",
+"WEIGHT_POUNDS","[Recode] Respondent weight in pounds","numeric",,845,0.925293961630272,,,"   59.0","  175","    400",179.657271163768,44.3466943602859,,"▁▇▃▁▁","F3.0","15"
+"HEIGHT_INCH","[Recode] Respondent height in inches","numeric",,907,0.919812571832729,,,"   36.0","   66","     78",66.3270857362553,4.72738424536023,,"▁▁▁▇▃","F2.0","13"
+"BMI","[Derived] Body Mass Index","numeric",,1315,0.883741490584387,,,"   15.0","   27","     55",28.6321328531413,6.58429938504873,,"▃▇▃▁▁","F4.1","7"
+"BMI_4CAT","[Derived] Adult Body Mass Index (BMI) (Centers for Disease Control (CDC) categories)","numeric","1. Underweight,
+2. Normal/healthy,
+3. Overweight,
+4. Obese",1315,0.883741490584387,,,"    1.0","    3","      4",3.01830732292917,0.846831469514021,,"▁▇▁▇▇","F1.0","10"
+"CHILD_U10","[Derived] Report having a child under age 10","numeric","1. Yes,
+2. No,
+3. No response",0,1,,,"    1.0","    2","      3",2.08478472283618,0.909022047688082,,"▆▁▃▁▇","F1.0","11"
+"HOW_OFTEN_CHILD","[Recode] How often does your child usually drink sugary drinks?","numeric","1. Every day,
+2. A few times a week,
+3. Once a week,
+4. Twice a month,
+5. Once a month,
+6. Less than once a month,
+7. Never",4890,0.567677482097074,,,"    1.0","    2","      7",2.83538389658932,1.96871958874578,,"▇▂▁▁▂","F1.0","17"
+"SUGAR_DRINKS_CHILD","[Recode] Yesterday, how many sugar drinks did your child drink?","numeric","0. None,
+1. 1 can or less,
+2. 2 cans,
+3. 3 cans,
+4. 4 +",4948,0.562549730350986,,,"    0.0","    1","      4",1.04856199905705,0.992109259675001,,"▇▇▅▁▁","F1.0","20"
+"SUGAR_DRINKS_CHILD_ANY","[Recode] Yesterday, how many sugar drinks did your child drink? (Any)","numeric","1. None,
+2. Some",4948,0.562549730350986,,,"    1.0","    2","      2",1.65409398082665,0.475700124639591,,"▅▁▁▁▇","F1.0","24"
+"SUGAR_DRINKS_CHILD_2CANS","[Recode] Yesterday, how many sugar drinks did your child drink? (2 cans +)","numeric","1. < 2 cans,
+2. 2 or more",4948,0.562549730350986,,,"    1.0","    1","      2",1.29357221436429,0.455434042617615,,"▇▁▁▁▃","F1.0","26"
+"SUGAR_DRINKS_CHILD_3CANS","[Recode] Yesterday, how many sugar drinks did your child drink? (3 cans +)","numeric","1. < 3 cans,
+2. 3 or more",4948,0.562549730350986,,,"    1.0","    1","      2",1.07873644507308,0.269348136983199,,"▇▁▁▁▁","F1.0","26"
+"JUICE_DRINKS_CHILD","[Recode] yesterday, how much 100% juice did your child drink?","numeric","0. None,
+1. 1 can or less,
+2. 2 cans,
+3. 3 cans,
+4. 4 +",4921,0.564936787198303,,,"    0.0","    1","      4",1.51361502347418,1.15386313736286,,"▆▇▇▃▂","F1.0","20"
+"JUICE_DRINKS_CHILD_ANY","[Recode] Yesterday, how much 100% juice did your child drink? (Any)","numeric","1. None,
+2. Some",4921,0.564936787198303,,,"    1.0","    2","      2",1.78638497652582,0.409890153401295,,"▂▁▁▁▇","F1.0","24"
+"JUICE_DRINKS_CHILD_2CANS","[Recode] Yesterday, how much 100% juice did your child drink? (2 cans +)","numeric","1. < 2 cans,
+2. 2 or more",4921,0.564936787198303,,,"    1.0","    1","      2",1.46870109546166,0.499058468518051,,"▇▁▁▁▇","F1.0","26"
+"TAP_WATER_CHILD","[Recode] Yesterday, how much tap water did your child drink?","numeric","1. None,
+2. A few sips,
+3. 1 cup,
+4. 2 cups,
+5. 3 cups,
+6. 4 +",4924,0.564671558659712,,,"    1.0","    3","      6",2.94269610145608,1.68990604988196,,"▇▃▃▂▂","F1.0","17"
+"TAP_WATER_CHILD_TOPCODE","[Recode] Yesterday, how much tap water did your child drink? (0 to 4)","numeric",,4924,0.564671558659712,,,"    0.0","    1","      4",1.31579771410678,1.31771851602681,,"▇▃▃▂▂","F3.1","25"
+"TAP_WATER_CHILD_ANY","[Recode] Yesterday, how much tap water did your child drink? (Any)","numeric","1. None,
+2. Some",4924,0.564671558659712,,,"    1.0","    2","      2",1.6912478471896,0.462014806682408,,"▃▁▁▁▇","F1.0","21"
+"TAP_WATER_CHILD_2CUPS","[Recode] Yesterday, how much tap water did your child drink? (2 cups +)","numeric","1. < 2 cups,
+2. 2 or more",4924,0.564671558659712,,,"    1.0","    1","      2",1.3860967590418,0.486891331009466,,"▇▁▁▁▅","F1.0","23"
+"BOTTLED_WATER_CHILD","[Recode] Yesterday, how much bottled water did your child drink?","numeric","1. None,
+2. Less than 1 bottle,
+3. 1 bottle,
+4. 2 bottles,
+5. 3 bottles,
+6. 4 +",4947,0.562638139863849,,,"    1.0","    3","      6",3.23302954116908,1.56002117548533,,"▇▆▆▃▂","F1.0","21"
+"BOTTLED_WATER_CHILD_TOPCODE","[Recode] Yesterday, how much bottled water did your child drink? (0 to 4)","numeric",,4947,0.562638139863849,,,"    0.0","    1","      4",1.49402891263356,1.24729933613684,,"▇▆▆▃▂","F3.1","29"
+"BOTTLED_WATER_CHILD_ANY","[Recode] Yesterday, how much bottled water did your child drink? (Any)","numeric","1. None,
+2. Some",4947,0.562638139863849,,,"    1.0","    2","      2",1.80232558139535,0.398276497002581,,"▂▁▁▁▇","F1.0","25"
+"BOTTLED_WATER_CHILD_2","[Recode] Yesterday, how much bottled water did your child drink? (2 cups +)","numeric","1. < 2 bottle,
+2. 2 or more",4947,0.562638139863849,,,"    1.0","    1","      2",1.44531741043369,0.497039871749008,,"▇▁▁▁▆","F1.0","23"
+"WATER_CONSUMPTION_CHILD","[Derived] Estimate of child tap and bottled water consumed yesterday","numeric",,4856,0.570683405534436,,,"    0.0","    2","      8",2.77490317583269,2.06325948781314,,"▇▇▃▂▂","F3.1","25"
+"WEIGHT_POUNDS_CHILD","[Recode] Respondent child weight in pounds","numeric",,7847,0.306250552559455,,,"   57.0","   96","    400",106.568418013857,44.7363947409527,,"▇▂▁▁▁","F3.0","21"
+"HEIGHT_INCH_CHILD","[Recode] Respondent child height in inches","numeric",,5638,0.501547166475113,,,"   12.0","   49","     92",48.6959280803808,14.1723752177317,,"▂▆▇▅▁","F2.0","19"
+"BMI_CHILD","[Derived] Respondent child Body Mass Index","numeric",,8105,0.283440898240651,,,"    5.8","   22","     55",23.7496880848409,7.86992764980282,,"▂▇▃▁▁","F4.1","11"
+"SUGAR_BEV_4_EVERYDAY","[Derived] Estimate consumed 4 or more sugary beverages every day","numeric","0. No,
+1. Yes",330,0.970824860755017,,,"    0.0","    0","      1",0.158455514069757,0.365184212007212,,"▇▁▁▁▂","F1.0","22"
+"SUGAR_BEV_4_EVERYDAY_CHILD","[Derived] Estimate consumed 4 or more sugary beverages every day (child)","numeric","0. No,
+1. Yes",5006,0.557421978604898,,,"    0.0","    0","      1",0.0153846153846154,0.123086684501618,,"▇▁▁▁▁","F1.0","28"
+"HEAVY_SSB_CHILD","[Derived] Indicator if consume 3 or more Sugar Sweetened Beverages (SSB)","numeric","0. No,
+1. Yes",4948,0.562549730350986,,,"    0.0","    0","      1",0.0787364450730787,0.269348136983199,,"▇▁▁▁▁","F1.0","17"

@@ -1,0 +1,5 @@
+{"type": "SPSS",
+  "variables": [
+{"type": "NUMERIC", "name": "CASEID", "label": "ICPSR Sequential record identifier"},
+{"type": "STRING", "name": "N1", "label": "Store ID"},
+{"type": "STRING", "name": "Q1", "label": "Q1. Please enter today's date (mm/dd/yy)"

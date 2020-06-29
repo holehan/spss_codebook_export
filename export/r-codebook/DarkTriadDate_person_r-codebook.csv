@@ -1,0 +1,70 @@
+"name","label","data_type","value_labels","n_missing","complete_rate","n_unique","empty","min","median","max","mean","sd","whitespace","hist","format.spss","display_width"
+"SD_Code","speed dating code","numeric",,0,1,,,"101.00"," 1.5e+02","246.00",172.633333333333,52.2639046602632,,"▇▅▁▃▇","F8.0",
+"DG","dating group","numeric",,0,1,,,"  1.00"," 2.0e+00","  3.00",2.03333333333333,0.77096175162709,,"▆▁▇▁▆","F8.0",
+"DG_size","dating group size","numeric",,0,1,,," 11.00"," 1.5e+01"," 19.00",15.3555555555556,2.88861037743224,,"▃▆▃▁▇","F8.0",
+"DG_size_acq","dating group size, corrected for prior acquaintance","numeric",,0,1,,,"  7.00"," 1.4e+01"," 19.00",14.2222222222222,2.93670218533363,,"▁▆▇▆▇","F8.0","11"
+"age","age","numeric",,0,1,,," 18.00"," 2.2e+01"," 32.00",22.8666666666667,3.094758163393,,"▅▇▅▂▁","F3.0","5"
+"sex","sex","numeric","1. female,
+2. male",0,1,,,"  1.00"," 1.0e+00","  2.00",1.48888888888889,0.502676978604527,,"▇▁▁▁▇","F1.0","5"
+"height","height","numeric",,0,1,,,"156.00"," 1.7e+02","196.00",174.544444444444,9.26168998473191,,"▃▇▇▃▃","F3.0","5"
+"weight","weight","numeric",,0,1,,," 46.00"," 7.0e+01","106.00",68.9111111111111,11.2845170297296,,"▃▇▆▂▁","F3.0","5"
+"relStat","relationship status","numeric","1. single,
+2. in a relationship,
+3. living separately / divorced",1,0.988888888888889,,,"  1.00"," 1.0e+00","  3.00",1.08988764044944,0.324753383291294,,"▇▁▁▁▁","F8.0","10"
+"relStat_other","other relationship status","character",,0,1,2,89,"0",,"25",,,0,,"A234","5"
+"education","highest educational attainment","numeric","1. nine years schooling only,
+2. professional training,
+3. vocational school,
+4. university-entrance diploma,
+5. academic degree",1,0.988888888888889,,,"  4.00"," 4.0e+00","  5.00",4.1685393258427,0.376465471559894,,"▇▁▁▁▂","F1.0","5"
+"contracept","hormonal contraception","numeric","1. yes,
+2. no",44,0.511111111111111,,,"  1.00"," 2.0e+00","  2.00",1.65217391304348,0.481543412343077,,"▅▁▁▁▇","F1.0","5"
+"date","past experience with speed dating","numeric","1. yes,
+2. no",0,1,,,"  1.00"," 2.0e+00","  2.00",1.9,0.301680685419296,,"▁▁▁▁▇","F1.0","5"
+"NPI_avg","narcissistic personality inventory - average","numeric",,0,1,,,"  1.70"," 2.6e+00","  3.65",2.61194444444444,0.346880718452262,,"▁▅▇▂▁","F8.2","10"
+"SRP_avg","self-report psychopathy scale - average","numeric",,0,1,,,"  1.35"," 2.1e+00","  3.50",2.06153846153846,0.365324336564435,,"▅▇▅▁▁","F8.2","10"
+"MACHIV_avg","mach-iv - average","numeric",,0,1,,,"  1.39"," 2.7e+00","  4.83",2.74938271604938,0.665273432044608,,"▂▇▆▂▁","F8.2","12"
+"BFI_N_avg","big five inventory: neuroticism - average","numeric",,0,1,,,"  1.00"," 2.8e+00","  4.75",2.79444444444444,0.934346026308723,,"▅▆▇▅▂","F8.2","11"
+"BFI_E_avg","big five inventory: extraversion - average","numeric",,0,1,,,"  1.00"," 3.8e+00","  5.00",3.72222222222222,0.803297666543143,,"▁▁▃▇▅","F8.2","11"
+"BFI_O_avg","big five inventory: openness - average","numeric",,0,1,,,"  1.00"," 4.2e+00","  5.00",4.07222222222222,0.759993757777111,,"▁▁▂▅▇","F8.2","11"
+"BFI_A_avg","big five inventory: agreeableness - average","numeric",,0,1,,,"  1.50"," 3.2e+00","  4.75",3.19722222222222,0.694576142318574,,"▂▅▃▇▁","F8.2","11"
+"BFI_C_avg","big five inventory: conscientiousness - average","numeric",,0,1,,,"  1.75"," 3.5e+00","  4.75",3.35277777777778,0.765196644738202,,"▅▃▆▇▃","F8.2","11"
+"PA_R1","physical attractiveness - rater1(f)","numeric",,0,1,,,"  1.00"," 4.0e+00","  7.00",3.63333333333333,1.12629451114826,,"▂▆▇▂▁","F8.2","14"
+"PA_R2","physical attractiveness - rater2(f)","numeric",,0,1,,,"  2.00"," 5.0e+00","  7.00",4.7,1.22198953635712,,"▅▅▇▃▂","F8.2",
+"PA_R3","physical attractiveness - rater3(m)","numeric",,0,1,,,"  1.00"," 3.0e+00","  7.00",3.15555555555556,1.50587695985669,,"▇▆▅▃▂","F8.2",
+"PA_R4","physical attractiveness - rater4(m)","numeric",,0,1,,,"  1.00"," 4.0e+00","  7.00",4.14444444444445,1.62536848794297,,"▆▇▃▆▇","F8.2",
+"PA_avg","physical attractiveness - average","numeric",,0,1,,,"  1.75"," 3.8e+00","  6.50",3.90833333333333,1.14192942382126,,"▅▇▇▇▂","F8.2","19"
+"BMI","body mass index","numeric",,0,1,,," 17.96"," 2.3e+01"," 30.64",22.5468471321312,2.75319541521952,,"▆▇▆▃▁","F8.2","10"
+"SOI_R_B_avg","sociosexual orientation inventory revised: behavior - average","numeric",,0,1,,,"  1.00"," 3.0e+00","  8.67",3.62962962962963,2.11199797391211,,"▇▅▃▂▂","F8.2","16"
+"SOI_R_A_avg","sociosexual orientation inventory revised: attitude - average","numeric",,0,1,,,"  1.67"," 6.8e+00","  9.00",6.48148148148148,2.10053860943227,,"▂▂▅▅▇","F8.2","17"
+"SOI_R_D_avg","sociosexual orientation inventory revised: desire - average","numeric",,0,1,,,"  1.00"," 5.3e+00","  9.00",5.11111111111111,2.09213496555728,,"▃▅▆▇▃","F8.2","15"
+"TargEff__choice_relFrequ_acq","SRM target effect: actual choice","numeric",,0,1,,," -0.39","-5.6e-03","  0.61",1.82213268900256e-05,0.257596964523525,,"▇▇▇▃▂","F8.2","34"
+"TargEff__FS_avg_acq","SRM target effect: friendship","numeric",,0,1,,," -1.53","-6.5e-02","  1.25",2.50743905027415e-05,0.67409961534076,,"▂▃▇▅▅","F8.2","29"
+"TargEff__ONS_avg_acq","SRM target effect: one night stand","numeric",,0,1,,," -1.98","-2.2e-01","  3.11",2.23157742764937e-05,1.41745927254949,,"▇▅▆▃▃","F8.2","21"
+"TargEff__BC_avg_acq","SRM target effect: booty call","numeric",,0,1,,," -1.63","-1.3e-01","  3.30",-4.10125363684144e-05,1.32643975826475,,"▇▃▃▂▁","F8.2","28"
+"TargEff__FWB_avg_acq","SRM target effect: friends-with-benefits","numeric",,0,1,,," -1.63","-1.6e-01","  3.23",-2.80605588654492e-05,1.2446039324563,,"▇▆▅▂▁","F8.2","30"
+"TargEff__STR_avg_acq","SRM target effect: short-term relationship (aggregated)","numeric",,0,1,,," -1.72","-2.3e-01","  3.21",-1.55857736524542e-05,1.31869695053349,,"▇▅▅▂▂","F8.2","13"
+"TargEff__LTR_avg_acq","SRM target effect: long-term relationship","numeric",,0,1,,," -1.40","-6.6e-02","  3.33",-1.73229018432248e-05,0.944400110922959,,"▇▇▅▁▁","F8.2","27"
+"TargEff__PA_avg_acq","SRM target effect: physical attractiveness","numeric",,0,1,,," -2.22"," 2.2e-01","  2.52",-2.61890175719279e-05,1.17749485094405,,"▅▅▇▆▂","F8.2","28"
+"TargEff__Like_avg_acq","SRM target effect: likeability","numeric",,0,1,,," -1.59"," 9.2e-02","  1.69",4.39458622634565e-05,0.711255384316519,,"▃▅▇▆▁","F8.2","31"
+"TargEff__Int_avg_acq","SRM target effect: intelligence","numeric",,0,1,,," -1.24","-8.2e-03","  1.01",2.54074271103219e-05,0.456763320533281,,"▁▃▇▆▃","F8.2","29"
+"TargEff__FIPI_N_avg_acq","SRM target effect: neuroticism","numeric",,0,1,,," -1.67","-9.3e-02","  1.79",1.60618191576855e-05,0.724682788434411,,"▂▇▆▆▂","F8.2","28"
+"TargEff__FIPI_E_avg_acq","SRM target effect: extraversion","numeric",,0,1,,," -2.40"," 8.3e-04","  1.66",-1.37558806291343e-05,0.847783758001021,,"▁▂▇▇▃","F8.2","28"
+"TargEff__FIPI_O_avg_acq","SRM target effect: openness","numeric",,0,1,,," -1.52","-3.2e-02","  1.56",5.22165981417831e-06,0.653315097876778,,"▂▅▇▅▂","F8.2","28"
+"TargEff__FIPI_A_avg_acq","SRM target effect: agreeableness","numeric",,0,1,,," -1.62"," 7.6e-02","  1.26",-4.46021928991828e-05,0.582464647463377,,"▂▃▇▇▂","F8.2","31"
+"TargEff__FIPI_C_avg_acq","SRM target effect: conscientiousness","numeric",,0,1,,," -1.80"," 3.0e-02","  1.43",-3.87224708174156e-05,0.582080840340821,,"▁▂▇▇▂","F8.2","29"
+"PercEff__choice_relFrequ_acq","SRM perceiver effect: actual choice","numeric",,0,1,,," -0.38","-1.6e-02","  0.62",3.98154286183132e-05,0.226617196628877,,"▆▇▆▂▂","F8.2","34"
+"PercEff__FS_avg_acq","SRM perceiver effect: friendship","numeric",,0,1,,," -2.71"," 9.6e-02","  2.50",-3.72027582556031e-05,0.957789572192313,,"▁▃▇▆▁","F8.2","29"
+"PercEff__ONS_avg_acq","SRM perceiver effect: one night stand","numeric",,0,1,,," -1.96","-2.3e-01","  3.03",1.56716577768777e-05,1.37766065122614,,"▇▆▅▅▂","F8.2","21"
+"PercEff__BC_avg_acq","SRM perceiver effect: booty call","numeric",,0,1,,," -1.81","-2.4e-01","  2.77",-1.24678440466659e-05,1.28504954383863,,"▇▆▃▅▃","F8.2","28"
+"PercEff__FWB_avg_acq","SRM perceiver effect: friends-with-benefits","numeric",,0,1,,," -1.82","-2.4e-01","  2.97",-1.04312192032746e-05,1.26507878724386,,"▇▇▅▃▂","F8.2","30"
+"PercEff__STR_avg_acq","SRM perceiver effect: short-term relationship (aggregated)","numeric",,0,1,,," -1.80","-3.0e-01","  2.83",-2.40913515769861e-06,1.25988832349236,,"▇▆▃▅▂","F8.2","14"
+"PercEff__LTR_avg_acq","SRM perceiver effect: long-term relationship","numeric",,0,1,,," -1.60","-1.6e-01","  2.68",-2.01332131137594e-06,1.08403475080111,,"▇▆▆▃▂","F8.2","27"
+"PercEff__PA_avg_acq","SRM perceiver effect: physical attractiveness","numeric",,0,1,,," -2.52"," 1.6e-01","  2.53",-3.40557428275296e-05,1.17636327030314,,"▃▅▇▇▂","F8.2","28"
+"PercEff__Like_avg_acq","SRM perceiver effect: likeability","numeric",,0,1,,," -2.50"," 6.3e-02","  2.08",3.55673566199292e-05,0.943291638957813,,"▂▃▇▆▂","F8.2","31"
+"PercEff__Int_avg_acq","SRM perceiver effect: intelligence","numeric",,0,1,,," -2.36"," 4.3e-02","  2.03",-3.87933054603471e-05,0.969228241082229,,"▂▃▇▆▂","F8.2","29"
+"PercEff__FIPI_N_avg_acq","SRM perceiver effect: neuroticism","numeric",,0,1,,," -2.25"," 1.2e-01","  2.49",3.21843848161239e-05,0.872486421365863,,"▂▅▇▅▁","F8.2","28"
+"PercEff__FIPI_E_avg_acq","SRM perceiver effect: extraversion","numeric",,0,1,,," -1.56"," 1.2e-01","  1.71",-4.35383979241674e-05,0.730360579480684,,"▃▆▇▇▁","F8.2","28"
+"PercEff__FIPI_O_avg_acq","SRM perceiver effect: openness","numeric",,0,1,,," -2.17"," 6.4e-02","  1.47",-1.92484578435001e-06,0.669432289421231,,"▁▃▇▇▂","F8.2","28"
+"PercEff__FIPI_A_avg_acq","SRM perceiver effect: agreeableness","numeric",,0,1,,," -2.17","-4.6e-02","  1.73",3.97476467655237e-05,0.856285147266989,,"▁▅▇▆▃","F8.2","31"
+"PercEff__FIPI_C_avg_acq","SRM perceiver effect: conscientiousness","numeric",,0,1,,," -2.20","-2.9e-03","  1.56",4.34105206037236e-05,0.701647058038686,,"▁▂▇▇▂","F8.2","29"
