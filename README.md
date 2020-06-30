@@ -14,15 +14,17 @@
 ### With R-package [codebook](https://rubenarslan.github.io/codebook/)
 
 ```r
-codebook_data <- rio::import("https://files.datawiz.uber.space/DarkTriadDate_person.sav", "sav")
+library(codebook)
+codebook_data <- rio::import("data/DarkTriadDate_person.sav", "sav")
 codebook_table <- codebook::codebook_table(codebook_data)
-rio::export(codebook_data, "~/Work/R_playground/export/rubenarslan/darktriade_matrix.csv", quote = TRUE)
-rio::export(codebook_table, "~/Work/R_playground/export/rubenarslan/darktriade_codebook.csv", quote = TRUE)
+rio::export(codebook_data, "export/r-codebook/DarkTriadDate_person_r-matrix.csv", quote = TRUE)
+rio::export(codebook_table, "export/r-codebook/DarkTriadDate_person_r-codebook.json", quote = TRUE)
+rio::export(codebook_table, "export/r-codebook/DarkTriadDate_person_r-codebook.csv", quote = TRUE)
 ```
 
 ### With [readstats cli](https://github.com/WizardMac/ReadStat)
 
 ```sh
-readstat DarkTriadDate_person.sav DarkTriadDate_person.csv
-extract_metadata DarkTriadDate_person.sav DarkTriadDate_person.json
+readstat data/DarkTriadDate_person.sav export/readstat/DarkTriadDate_person_readstat-matrix.csv
+extract_metadata data/DarkTriadDate_person.sav export/readstat/DarkTriadDate_person_readstat-codebook.json
 ```
