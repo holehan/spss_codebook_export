@@ -28,3 +28,7 @@ rio::export(codebook_table, "export/r-codebook/DarkTriadDate_person_r-codebook.c
 readstat data/DarkTriadDate_person.sav export/readstat/DarkTriadDate_person_readstat-matrix.csv
 extract_metadata data/DarkTriadDate_person.sav export/readstat/DarkTriadDate_person_readstat-codebook.json
 ```
+
+### SPSS
+
+Export codebook via `File` -> `Display Data File Information`.
