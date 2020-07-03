@@ -22,7 +22,7 @@ rio::export(codebook_table, "export/r-codebook/spss27_r-codebook.json", quote = 
 rio::export(codebook_table, "export/r-codebook/spss27_r-codebook.csv", quote = TRUE)
 ```
 
-### With [readstats cli](https://github.com/WizardMac/ReadStat)
+### With [ReadStat cli](https://github.com/WizardMac/ReadStat)
 
 ```sh
 readstat data/spss27.sav export/readstat/spss27_readstat-matrix.csv
@@ -67,7 +67,7 @@ Variable Values
 | 4   | 0   | 165.75        | 56.1    |
 | 5   | 1   | 165.666666666 | 56.25   |
 
-#### Export from readstat cli (See [export/readstat/spss27_readstat-matrix.csv](export/readstat/spss27_readstat-matrix.csv))
+#### Export from ReadStat cli (See [export/readstat/spss27_readstat-matrix.csv](export/readstat/spss27_readstat-matrix.csv))
 
 | id       | sex        | height             | weight    |
 | -------- | ---------- | ------------------ | --------- |
