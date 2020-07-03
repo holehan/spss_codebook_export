@@ -15,20 +15,82 @@
 
 ```r
 library(codebook)
-codebook_data <- rio::import("data/DarkTriadDate_person.sav", "sav")
+codebook_data <- rio::import("data/spss27.sav", "sav")
 codebook_table <- codebook::codebook_table(codebook_data)
-rio::export(codebook_data, "export/r-codebook/DarkTriadDate_person_r-matrix.csv", quote = TRUE)
-rio::export(codebook_table, "export/r-codebook/DarkTriadDate_person_r-codebook.json", quote = TRUE)
-rio::export(codebook_table, "export/r-codebook/DarkTriadDate_person_r-codebook.csv", quote = TRUE)
+rio::export(codebook_data, "export/r-codebook/spss27_r-matrix.csv", quote = TRUE)
+rio::export(codebook_table, "export/r-codebook/spss27_r-codebook.json", quote = TRUE)
+rio::export(codebook_table, "export/r-codebook/spss27_r-codebook.csv", quote = TRUE)
 ```
 
 ### With [readstats cli](https://github.com/WizardMac/ReadStat)
 
 ```sh
-readstat data/DarkTriadDate_person.sav export/readstat/DarkTriadDate_person_readstat-matrix.csv
-extract_metadata data/DarkTriadDate_person.sav export/readstat/DarkTriadDate_person_readstat-codebook.json
+readstat data/spss27.sav export/readstat/spss27_readstat-matrix.csv
+extract_metadata data/spss27.sav export/readstat/spss27_readstat-codebook.json
 ```
 
 ### SPSS
 
 Export codebook via `File` -> `Display Data File Information`.
+
+### Comparison with dummy data file `spss27.sav` (See [data/spss27.sav](data/spss27.sav))
+
+### Variable Information exported from SPSS 27
+
+Variable Information
+
+| Variable | Position | Label        | Measurement Level | Role  | Column Width | Alignment | Print Format | Write Format | Missing Values |
+| -------- | -------- | ------------ | ----------------- | ----- | ------------ | --------- | ------------ | ------------ | -------------- |
+| id       | 1        | \<none\>     | Nominal           | Input | 8            | Left      | F8           | F8           |                |
+| sex      | 2        | Gender       | Nominal           | Input | 8            | Right     | F8           | F8           | -99            |
+| height   | 3        | Height in cm | Scale             | Input | 8            | Right     | F8.2         | F8.2         |                |
+| weight   | 4        | Wieght in kg | Scale             | Input | 8            | Right     | F8           | F8           |                |
+
+Variables in the working file
+
+Variable Values
+
+| Value | Label |
+| ----- | ----- |
+| sex   | 0     | female |
+|       | 1     | male |
+
+#### Export from SPSS 27 (See [export/spss/spss27.csv](export/spss/spss27.csv))
+
+| id  | sex | height        | weight  |
+| --- | --- | ------------- | ------- |
+| 1   | 0   | 165           | 55.5555 |
+| 2   | 1   | 165.5         | 55.05   |
+| 3   | -99 | 165.5         | 55.777  |
+| 4   | 0   | 165.75        | 56.1    |
+| 5   | 1   | 165.666666666 | 56.25   |
+
+#### Export from readstat cli (See [export/readstat/spss27_readstat-matrix.csv](export/readstat/spss27_readstat-matrix.csv))
+
+| id       | sex        | height             | weight    |
+| -------- | ---------- | ------------------ | --------- |
+| 1.000000 | 0.000000   | 165.000000         | 55.555500 |
+| 2.000000 | 1.000000   | 165.500000         | 55.050000 |
+| 3.000000 | -99.000000 | 165.500000         | 55.777000 |
+| 4.000000 | 0.000000   | 165.750000         | 56.100000 |
+| 5.000000 | 1.000000   | 165.66666666600000 | 56.250000 |
+
+### Export from r-codebook_data (See [export/r-codebook/spss27_r-matrix.csv](export/r-codebook/spss27_r-matrix.csv))
+
+| id  | sex | height        | weight  |
+| --- | --- | ------------- | ------- |
+| 1   | 0   | 165           | 55.5555 |
+| 2   | 1   | 165.5         | 55.05   |
+| 3   |     | 165.5         | 55.777  |
+| 4   | 0   | 165.75        | 56.1    |
+| 5   | 1   | 165.666666666 | 56.25   |
+
+### Export from DataWiz1 (See [export/dw1/spss27_Matrix.csv](export/dw1/spss27_Matrix.csv))
+
+| id  | sex | height        | weight |
+| --- | --- | ------------- | ------ |
+| 1   | 0   | 165.0         | 56     |
+| 2   | 1   | 165.5         | 55     |
+| 3   | -99 | 165.5         | 56     |
+| 4   | 0   | 165.75        | 56     |
+| 5   | 1   | 165.666666666 | 56     |
