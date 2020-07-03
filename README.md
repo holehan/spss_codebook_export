@@ -8,6 +8,7 @@
 | [mchr_dual_tasks.sav](data/mchr_dual_tasks.sav)           | <https://drive.google.com/file/d/1rJaZjiJ8p1gOKn6Vwq8AK9zSkB4aAMfv>                     | SPSS System File TICS 64-bit MS Windows 24.0.0.0      |
 | [sleep.sav](data/sleep.sav)                               | <http://spss.allenandunwin.com.s3-website-ap-southeast-2.amazonaws.com/data-files.html> | SPSS System File MS Windows Release 12.0 spssio32.dll |
 | [survey.sav](data/survey.sav)                             | <http://spss.allenandunwin.com.s3-website-ap-southeast-2.amazonaws.com/data-files.html> | SPSS System File MS Windows Release 15.0.0            |
+| [spss27.sav](data/spss27.sav)                             | - | SPSS SPSS System File TICS 64-bit Macintosh 27.0.0.0            |
 
 ## Converting files
 
