@@ -35,6 +35,8 @@ Export codebook via `File` -> `Display Data File Information`.
 
 ### Comparison with dummy data file `spss27.sav` (See [data/spss27.sav](data/spss27.sav))
 
+![](assets/spss27.png)
+
 ### Variable Information exported from SPSS 27
 
 Variable Information
