@@ -1,0 +1,6 @@
+"name","label","data_type","value_labels","n_missing","complete_rate","min","median","max","mean","sd","hist","format.spss"
+"id",,"numeric",,0,1,"  1","  3.0","  5",3,1.58113883008419,"▇▇▇▇▇","F8.0"
+"sex","Gender","numeric","0. female,
+1. male",1,0.8,"  0","  0.5","  1",0.5,0.577350269189626,"▇▁▁▁▇","F8.0"
+"height","Height in cm","numeric",,0,1,"165","165.5","166",165.4833333332,0.291070819837906,"▃▁▁▇▇","F8.2"
+"weight","Wieght in kg","numeric",,0,1," 55"," 55.8"," 56",55.7465,0.474604572249363,"▃▁▃▃▇","F8.0"

@@ -1,0 +1,7 @@
+{"type": "SPSS",
+  "variables": [
+{"type": "NUMERIC", "name": "id"},
+{"type": "NUMERIC", "name": "sex", "label": "Gender", "categories": [{ "code": 0.000000, "label": "female"} , { "code": 1.000000, "label": "male"} ] , "missing": { "type": "DISCRETE", "values": [-99]} },
+{"type": "NUMERIC", "name": "height", "decimals": 2, "label": "Height in cm"},
+{"type": "NUMERIC", "name": "weight", "label": "Wieght in kg"}]}
+
