@@ -1,0 +1,1327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<codeBook xmlns="ddi:codebook:2_5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="ddi:codebook:2_5 http://www.ddialliance.org/Specification/DDI-Codebook/2.5/XMLSchema/codebook.xsd" version="2.5">
+  <docDscr>
+    <citation>
+      <titlStmt>
+        <titl>Codebook of mchr_dual_tasks.sav</titl>
+      </titlStmt>
+      <prodStmt>
+        <producer role="DataWiz Export">
+          <list>
+            <itm>
+              <label>title</label>
+            </itm>
+            <itm>
+              <label>orcid</label>
+            </itm>
+            <itm>
+              <label>first name</label>
+              <p>Florian</p>
+            </itm>
+            <itm>
+              <label>last name</label>
+              <p>Grässle</p>
+            </itm>
+            <itm>
+              <label>department</label>
+            </itm>
+          </list>
+        </producer>
+        <prodDate>2020-07-06T10:28:55.647592</prodDate>
+        <software>DataWiz</software>
+      </prodStmt>
+    </citation>
+  </docDscr>
+  <stdyDscr>
+    <citation>
+      <titlStmt>
+        <titl>Dummystudie für Codebooktest</titl>
+      </titlStmt>
+      <rspStmt/>
+    </citation>
+  </stdyDscr>
+  <fileDscr>
+    <fileTxt>
+      <fileCitation>
+        <titlStmt>
+          <titl>mchr_dual_tasks.sav</titl>
+        </titlStmt>
+        <verStmt>
+          <version>2020-06-29T14:00:31</version>
+          <verResp>fg@leibniz-psychology.org</verResp>
+          <notes>initial</notes>
+        </verStmt>
+      </fileCitation>
+      <dataFingerprint type="dataFile">
+        <digitalFingerprintValue>db0ffe5043fc92129f1ceab72bc49ca3</digitalFingerprintValue>
+        <algorithmSpecification>MD5</algorithmSpecification>
+      </dataFingerprint>
+      <dataFingerprint type="dataFile">
+        <digitalFingerprintValue>b5be92099ea774f07bd5a5226a5a4c9492c2c2b9</digitalFingerprintValue>
+        <algorithmSpecification>SHA1</algorithmSpecification>
+      </dataFingerprint>
+      <dataFingerprint type="dataFile">
+        <digitalFingerprintValue>790c58817ef392b29a1a2e9e51e89f5744db1b55387c8fbdb8831d7bee4080a3</digitalFingerprintValue>
+        <algorithmSpecification>SHA256</algorithmSpecification>
+      </dataFingerprint>
+      <fileCont>wqd</fileCont>
+      <fileStrc type="rectangular"/>
+      <format>comma-delimited</format>
+    </fileTxt>
+  </fileDscr>
+  <dataDscr>
+    <var name="pp" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="1" EndPos="1" width="8"/>
+      <labl>participant</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="Version" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="2" EndPos="2" width="8"/>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="Gender" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="3" EndPos="3" width="8"/>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>women</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>men</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="age" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="4" EndPos="4" width="8"/>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="handness" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="5" EndPos="5" width="8"/>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>right</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>left</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="education" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="6" EndPos="6" width="8"/>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>no educational qualification</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>intermediate school-leaving certificate (Realschule)</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>advanced technical college entrance qualification (Fachhochschulreife)</labl>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>subject-related entrance qualification (Fachabitur)</labl>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>general qualification for university entrance</labl>
+      </catgry>
+      <catgry>
+        <catValu>6</catValu>
+        <labl>Bachelor</labl>
+      </catgry>
+      <catgry>
+        <catValu>7</catValu>
+        <labl>master</labl>
+      </catgry>
+      <catgry>
+        <catValu>8</catValu>
+        <labl>PhD</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="profession" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="7" EndPos="7" width="20"/>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>String</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>14</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Left</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="hearing" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="8" EndPos="8" width="8"/>
+      <catgry>
+        <catValu>0</catValu>
+        <labl>intact</labl>
+      </catgry>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>impaired without correction</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>impaired with correction</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="seeing" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="9" EndPos="9" width="8"/>
+      <catgry>
+        <catValu>0</catValu>
+        <labl>intact</labl>
+      </catgry>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>impaired with correction</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>impaired without correction</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="RT1_CRK" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="10" EndPos="10" width="8"/>
+      <labl>task-pair repetition and cue repetition short for RT in T1</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="RT1_CRL" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="11" EndPos="11" width="8"/>
+      <labl>task-pair repetition and cue repetition long for RT in T1</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="RT1_CSK" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="12" EndPos="12" width="8"/>
+      <labl>task-pair repetition and cue switch short for RT in T1</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="RT1_CSL" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="13" EndPos="13" width="8"/>
+      <labl>task-pair repetition and cue switch long for RT in T1</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="RT1_TSK" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="14" EndPos="14" width="8"/>
+      <labl>task-pair switch and cue switch short for RT in T1</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="RT1_TSL" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="15" EndPos="15" width="8"/>
+      <labl>task-pair switch and cue switch long for RT in T1</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="E1_CRK" dcml="3" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="16" EndPos="16" width="8"/>
+      <labl>task-pair repetition and cue repetition short for errors in T1</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="E1_CRL" dcml="3" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="17" EndPos="17" width="8"/>
+      <labl>task-pair repetition and cue repetition long for errors in T1</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="E1_CSK" dcml="3" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="18" EndPos="18" width="8"/>
+      <labl>task-pair repetition and cue switch short for errors in T1</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="E1_CSL" dcml="3" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="19" EndPos="19" width="8"/>
+      <labl>task-pair repetition and cue switch long for errors in T1</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="E1_TSK" dcml="3" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="20" EndPos="20" width="8"/>
+      <labl>task-pair switch and cue switch short for errors in T1</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="E1_TSL" dcml="3" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="21" EndPos="21" width="8"/>
+      <labl>task-pair switch and cue switch long for errors in T1</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="RT2_CRK" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="22" EndPos="22" width="8"/>
+      <labl>task-pair repetition and cue repetition short for RT in T2</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="RT2_CRL" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="23" EndPos="23" width="8"/>
+      <labl>task-pair repetition and cue repetition long for RT in T2</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="RT2_CSK" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="24" EndPos="24" width="8"/>
+      <labl>task-pair repetition and cue switch short for RT in T2</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="RT2_CSL" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="25" EndPos="25" width="8"/>
+      <labl>task-pair repetition and cue switch long for RT in T2</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="RT2_TSK" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="26" EndPos="26" width="8"/>
+      <labl>task-pair switch and cue switch short for RT in T2</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="RT2_TSL" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="27" EndPos="27" width="8"/>
+      <labl>task-pair switch and cue switch long for RT in T2</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="E2_CRK" dcml="3" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="28" EndPos="28" width="8"/>
+      <labl>task-pair repetition and cue repetition short for errors in T2</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="E2_CRL" dcml="3" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="29" EndPos="29" width="8"/>
+      <labl>task-pair repetition and cue repetition long for errors in T2</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="E2_CSK" dcml="3" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="30" EndPos="30" width="8"/>
+      <labl>task-pair repetition and cue switch short for errors in T2</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="E2_CSL" dcml="3" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="31" EndPos="31" width="8"/>
+      <labl>task-pair repetition and cue switch long for errors in T2</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="E2_TSK" dcml="3" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="32" EndPos="32" width="8"/>
+      <labl>task-pair switch and cue switch short for errors in T2</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="E2_TSL" dcml="3" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="33" EndPos="33" width="8"/>
+      <labl>task-pair switch and cue switch long for errors in T2</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+  </dataDscr>
+</codeBook>

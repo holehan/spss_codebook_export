@@ -1,0 +1,6491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<codeBook xmlns="ddi:codebook:2_5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="ddi:codebook:2_5 http://www.ddialliance.org/Specification/DDI-Codebook/2.5/XMLSchema/codebook.xsd" version="2.5">
+  <docDscr>
+    <citation>
+      <titlStmt>
+        <titl>Codebook of 37110-0002-Data.sav</titl>
+      </titlStmt>
+      <prodStmt>
+        <producer role="DataWiz Export">
+          <list>
+            <itm>
+              <label>title</label>
+            </itm>
+            <itm>
+              <label>orcid</label>
+            </itm>
+            <itm>
+              <label>first name</label>
+              <p>Florian</p>
+            </itm>
+            <itm>
+              <label>last name</label>
+              <p>Grässle</p>
+            </itm>
+            <itm>
+              <label>department</label>
+            </itm>
+          </list>
+        </producer>
+        <prodDate>2020-07-06T10:29:02.832143</prodDate>
+        <software>DataWiz</software>
+      </prodStmt>
+    </citation>
+  </docDscr>
+  <stdyDscr>
+    <citation>
+      <titlStmt>
+        <titl>Dummystudie für Codebooktest</titl>
+      </titlStmt>
+      <rspStmt/>
+    </citation>
+  </stdyDscr>
+  <fileDscr>
+    <fileTxt>
+      <fileCitation>
+        <titlStmt>
+          <titl>37110-0002-Data.sav</titl>
+        </titlStmt>
+        <verStmt>
+          <version>2020-06-30T10:02:31</version>
+          <verResp>fg@leibniz-psychology.org</verResp>
+          <notes>initial upload</notes>
+        </verStmt>
+      </fileCitation>
+      <dataFingerprint type="dataFile">
+        <digitalFingerprintValue>121ac297bd99e39a7bc611a57015f4ea</digitalFingerprintValue>
+        <algorithmSpecification>MD5</algorithmSpecification>
+      </dataFingerprint>
+      <dataFingerprint type="dataFile">
+        <digitalFingerprintValue>38bebe7516922c5e9bbd65ad0dcbfdf6c3cd2b73</digitalFingerprintValue>
+        <algorithmSpecification>SHA1</algorithmSpecification>
+      </dataFingerprint>
+      <dataFingerprint type="dataFile">
+        <digitalFingerprintValue>7f715639a4dbdcc0ae74d0af52fb93891ae1289858dfcad3203f6a525d315dd6</digitalFingerprintValue>
+        <algorithmSpecification>SHA256</algorithmSpecification>
+      </dataFingerprint>
+      <fileCont>qwd</fileCont>
+      <fileStrc type="rectangular"/>
+      <format>comma-delimited</format>
+    </fileTxt>
+  </fileDscr>
+  <dataDscr>
+    <var name="CASEID" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="1" EndPos="1" width="4"/>
+      <labl>ICPSR Sequential record identifier</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="N1" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="2" EndPos="2" width="15"/>
+      <labl>Store ID</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>String</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>7</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Left</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="Q1" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="3" EndPos="3" width="33"/>
+      <labl>Q1. Please enter today's date (mm/dd/yy)</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>String</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>13</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Left</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="Q2" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="4" EndPos="4" width="1"/>
+      <labl>Q2. Are you male or female</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Male</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Female</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>4</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="Q3" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="5" EndPos="5" width="2"/>
+      <labl>Q3. What is your age?</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>4</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="Q4" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="6" EndPos="6" width="4"/>
+      <labl>Q4. How do you describe yourself? (Check all that apply)</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Latino/Latina</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Black, African American</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>White</labl>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Asian or Asian American</labl>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>Pacific Islander</labl>
+      </catgry>
+      <catgry>
+        <catValu>6</catValu>
+        <labl>American Indian or Alaska Native</labl>
+      </catgry>
+      <catgry>
+        <catValu>7</catValu>
+        <labl>Some other race or ethnicity</labl>
+      </catgry>
+      <catgry>
+        <catValu>12</catValu>
+        <labl>Latino/Latina and Black, African American</labl>
+      </catgry>
+      <catgry>
+        <catValu>13</catValu>
+        <labl>Latino/Latina and White</labl>
+      </catgry>
+      <catgry>
+        <catValu>23</catValu>
+        <labl>Black, African American and White</labl>
+      </catgry>
+      <catgry>
+        <catValu>25</catValu>
+        <labl>Black, African American and Pacific Islander</labl>
+      </catgry>
+      <catgry>
+        <catValu>26</catValu>
+        <labl>Black, African American and American Indian or Alaska Native</labl>
+      </catgry>
+      <catgry>
+        <catValu>27</catValu>
+        <labl>Black, African American and some other race or ethnicity</labl>
+      </catgry>
+      <catgry>
+        <catValu>35</catValu>
+        <labl>White and Pacific Islander</labl>
+      </catgry>
+      <catgry>
+        <catValu>36</catValu>
+        <labl>White and American Indian or Alaska Native</labl>
+      </catgry>
+      <catgry>
+        <catValu>37</catValu>
+        <labl>White and some other race or ethnicity</labl>
+      </catgry>
+      <catgry>
+        <catValu>236</catValu>
+        <labl>Black, African American, White, and American Indian or Alaska Native</labl>
+      </catgry>
+      <catgry>
+        <catValu>1236</catValu>
+        <labl>Latino/Latina, Black, African American, White, and American Indian or Alaska Native</labl>
+      </catgry>
+      <catgry>
+        <catValu>2367</catValu>
+        <labl>Black, African American, White, American Indian or Alaska Native, and some other race or ethnicity</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>6</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="Q5" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="7" EndPos="7" width="3"/>
+      <labl>Q5. How often do you visit this store or restaurant?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Almost every day (5-7 x/week)</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>A few days per week (2-4 x/week)</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>About once a week</labl>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Occasionally (1-3x per month)</labl>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>Seldom (less than once a month)</labl>
+      </catgry>
+      <catgry>
+        <catValu>6</catValu>
+        <labl>Rarely (a few times a year or less)</labl>
+      </catgry>
+      <catgry>
+        <catValu>12</catValu>
+        <labl>Almost every day (5-7 x/week) and a few days per week (2-4 x/week)</labl>
+      </catgry>
+      <catgry>
+        <catValu>23</catValu>
+        <labl>A few days per week (2-4 x/week) and about once a week</labl>
+      </catgry>
+      <catgry>
+        <catValu>34</catValu>
+        <labl>About once a week and occasionally (1-3x per month)</labl>
+      </catgry>
+      <catgry>
+        <catValu>36</catValu>
+        <labl>About once a week and rarely (a few times a year or less)</labl>
+      </catgry>
+      <catgry>
+        <catValu>46</catValu>
+        <labl>Occasionally (1-3x per month) and rarely (a few times a year or less)</labl>
+      </catgry>
+      <catgry>
+        <catValu>236</catValu>
+        <labl>A few days per week (2-4 x/week), about once a week, and rarely (a few times a year or less)</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>5</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="Q6" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="8" EndPos="8" width="4"/>
+      <labl>Q6. Yesterday, about how much regular soda did you drink?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>I did not drink regular soda yesterday</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>1 can or less (1 cup=8oz, 1 can=12 oz)</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>2 cans (about one 20-oz bottle or 2.5 cups)</labl>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>3 cans (about two 20-oz bottles or 4.5 cups)</labl>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>4 or more cans (48 oz or more)</labl>
+      </catgry>
+      <catgry>
+        <catValu>12</catValu>
+        <labl>I did not drink regular soda yesterday and 1 can or less (1 cup=8oz, 1 can=12 oz)</labl>
+      </catgry>
+      <catgry>
+        <catValu>13</catValu>
+        <labl>I did not drink regular soda yesterday and 2 cans (about one 20-oz bottle or 2.5 cups)</labl>
+      </catgry>
+      <catgry>
+        <catValu>23</catValu>
+        <labl>1 can or less (1 cup=8oz, 1 can=12 oz) and 2 cans (about one 20-oz bottle or 2.5 cups)</labl>
+      </catgry>
+      <catgry>
+        <catValu>34</catValu>
+        <labl>2 cans (about one 20-oz bottle or 2.5 cups) and 3 cans (about two 20-oz bottles or 4.5 cups)</labl>
+      </catgry>
+      <catgry>
+        <catValu>45</catValu>
+        <labl>3 cans (about two 20-oz bottles or 4.5 cups) and 4 or more cans (48 oz or more)</labl>
+      </catgry>
+      <catgry>
+        <catValu>123</catValu>
+        <labl>I did not drink regular soda yesterday, 1 can or less, and 2 cans</labl>
+      </catgry>
+      <catgry>
+        <catValu>1345</catValu>
+        <labl>I did not drink regular soda yesterday, 2 cans, 3 cans, and 4 or more cans</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>6</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="Q7" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="9" EndPos="9" width="2"/>
+      <labl>Q7. Yesterday, about how much diet soda did you drink?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>I did not drink diet soda yesterday</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>1 can or less (1 cup=8oz, 1 can=12 oz)</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>2 cans (about one 20-oz bottle or 2.5 cups)</labl>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>3 cans (about two 20-oz bottles or 4.5 cups)</labl>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>4 or more cans (48 oz or more)</labl>
+      </catgry>
+      <catgry>
+        <catValu>12</catValu>
+        <labl>I did not drink diet soda yesterday and 1 can or less (1 cup=8oz, 1 can=12 oz)</labl>
+      </catgry>
+      <catgry>
+        <catValu>23</catValu>
+        <labl>1 can or less (1 cup=8oz, 1 can=12 oz) and 2 cans (about one 20-oz bottle or 2.5 cups)</labl>
+      </catgry>
+      <catgry>
+        <catValu>34</catValu>
+        <labl>2 cans (about one 20-oz bottle or 2.5 cups) and 3 cans (about two 20-oz bottles or 4.5 cups)</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>4</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="Q8" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="10" EndPos="10" width="5"/>
+      <labl>Q8. Yesterday, about how many sports or energy drinks did you drink?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>I did not drink sports or energy drinks yesterday</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>1 can or less (1 cup=8oz, 1 can=12 oz)</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>2 cans (about one 20-oz bottle or 2.5 cups)</labl>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>3 cans (about two 20-oz bottles or 4.5 cups)</labl>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>4 or more cans (48 oz or more)</labl>
+      </catgry>
+      <catgry>
+        <catValu>12</catValu>
+        <labl>I did not drink sports or energy drinks yesterday and 1 can or less (1 cup=8oz, 1 can=12 oz)</labl>
+      </catgry>
+      <catgry>
+        <catValu>13</catValu>
+        <labl>I did not drink sports or energy drinks yesterday and 2 cans (about one 20-oz bottle or 2.5 cups)</labl>
+      </catgry>
+      <catgry>
+        <catValu>14</catValu>
+        <labl>I did not drink sports or energy drinks yesterday and 3 cans (about two 20-oz bottles or 4.5 cups)</labl>
+      </catgry>
+      <catgry>
+        <catValu>15</catValu>
+        <labl>I did not drink sports or energy drinks yesterday and 4 or more cans (48 oz or more)</labl>
+      </catgry>
+      <catgry>
+        <catValu>23</catValu>
+        <labl>1 can or less (1 cup=8oz, 1 can=12 oz) and 2 cans (about one 20-oz bottle or 2.5 cups)</labl>
+      </catgry>
+      <catgry>
+        <catValu>24</catValu>
+        <labl>1 can or less (1 cup=8oz, 1 can=12 oz) and 3 cans (about two 20-oz bottles or 4.5 cups)</labl>
+      </catgry>
+      <catgry>
+        <catValu>34</catValu>
+        <labl>2 cans (about one 20-oz bottle or 2.5 cups) and 3 cans (about two 20-oz bottles or 4.5 cups)</labl>
+      </catgry>
+      <catgry>
+        <catValu>45</catValu>
+        <labl>3 cans (about two 20-oz bottles or 4.5 cups) and 4 or more cans (48 oz or more)</labl>
+      </catgry>
+      <catgry>
+        <catValu>1234</catValu>
+        <labl>I did not drink sports or energy drinks yesterday, 1 can or less, 2 cans, and 3 cans</labl>
+      </catgry>
+      <catgry>
+        <catValu>12345</catValu>
+        <labl>All options selected</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>7</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="Q9" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="11" EndPos="11" width="5"/>
+      <labl>Q9. Yesterday, about how much 100% fruit juice, like orange or apple juice, did you drink?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>I did not drink 100% fruit juice yesterday</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>1 can or less (1 cup=8oz, 1 can=12 oz)</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>2 cans (about one 20-oz bottle or 2.5 cups)</labl>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>3 cans (about two 20-oz bottles or 4.5 cups)</labl>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>4 or more cans (48 oz or more)</labl>
+      </catgry>
+      <catgry>
+        <catValu>12</catValu>
+        <labl>I did not drink 100% fruit juice yesterday and 1 can or less (1 cup=8oz, 1 can=12 oz)</labl>
+      </catgry>
+      <catgry>
+        <catValu>13</catValu>
+        <labl>I did not drink 100% fruit juice yesterday and 2 cans (about one 20-oz bottle or 2.5 cups)</labl>
+      </catgry>
+      <catgry>
+        <catValu>15</catValu>
+        <labl>I did not drink 100% fruit juice yesterday and 4 or more cans (48 oz or more)</labl>
+      </catgry>
+      <catgry>
+        <catValu>23</catValu>
+        <labl>1 can or less (1 cup=8oz, 1 can=12 oz) and 2 cans (about one 20-oz bottle or 2.5 cups)</labl>
+      </catgry>
+      <catgry>
+        <catValu>34</catValu>
+        <labl>2 cans (about one 20-oz bottle or 2.5 cups) and 3 cans (about two 20-oz bottles or 4.5 cups)</labl>
+      </catgry>
+      <catgry>
+        <catValu>1234</catValu>
+        <labl>I did not drink 100% fruit juice yesterday, 1 can or less, 2 cans, and 3 cans</labl>
+      </catgry>
+      <catgry>
+        <catValu>12345</catValu>
+        <labl>All options selected</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>7</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="Q10" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="12" EndPos="12" width="5"/>
+      <labl>Q10. Yesterday, about how many sweetened fruit-flavored drinks, sweetened tea drinks, or sweetened coffee drinks did you drink?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>I did not drink sweetened fruit flavored, tea or coffee drinks yesterday</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>1 can or less (1 cup=8oz, 1 can=12 oz)</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>2 cans (about one 20-oz bottle or 2.5 cups)</labl>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>3 cans (about two 20-oz bottles or 4.5 cups)</labl>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>4 or more cans (48 oz or more)</labl>
+      </catgry>
+      <catgry>
+        <catValu>12</catValu>
+        <labl>I did not drink any sweetened fruit-flavored, tea, or coffee drinks yesterday and 1 can or less</labl>
+      </catgry>
+      <catgry>
+        <catValu>13</catValu>
+        <labl>I did not drink any sweetened fruit-flavored, tea, or coffee drinks yesterday and 2 cans</labl>
+      </catgry>
+      <catgry>
+        <catValu>15</catValu>
+        <labl>I did not drink any sweetened fruit-flavored, tea, or coffee drinks yesterday and 4 or more cans</labl>
+      </catgry>
+      <catgry>
+        <catValu>23</catValu>
+        <labl>1 can or less (1 cup=8oz, 1 can=12 oz) and 2 cans (about one 20-oz bottle or 2.5 cups)</labl>
+      </catgry>
+      <catgry>
+        <catValu>34</catValu>
+        <labl>2 cans (about one 20-oz bottle or 2.5 cups) and 3 cans (about two 20-oz bottles or 4.5 cups)</labl>
+      </catgry>
+      <catgry>
+        <catValu>45</catValu>
+        <labl>3 cans (about two 20-oz bottles or 4.5 cups) and 4 or more cans (48 oz or more)</labl>
+      </catgry>
+      <catgry>
+        <catValu>1234</catValu>
+        <labl>Did not drink any sweetened fruit-flavored, tea, or coffee drinks yesterday, 1 can or less, 2 cans, and 3 cans</labl>
+      </catgry>
+      <catgry>
+        <catValu>2345</catValu>
+        <labl>1 can or less, 2 cans, 3 cans, and 4 or more cans</labl>
+      </catgry>
+      <catgry>
+        <catValu>12345</catValu>
+        <labl>All options selected</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>7</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="Q11" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="13" EndPos="13" width="6"/>
+      <labl>Q11. Yesterday, about how much tap water did you drink?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>I did not drink tap water yesterday</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>A few sips</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>1 cup (8 oz)</labl>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>2 cups</labl>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>3 cups</labl>
+      </catgry>
+      <catgry>
+        <catValu>6</catValu>
+        <labl>4 or more cups</labl>
+      </catgry>
+      <catgry>
+        <catValu>12</catValu>
+        <labl>I did not drink tap water yesterday and a few sips</labl>
+      </catgry>
+      <catgry>
+        <catValu>14</catValu>
+        <labl>I did not drink tap water yesterday and 2 cups</labl>
+      </catgry>
+      <catgry>
+        <catValu>15</catValu>
+        <labl>I did not drink tap water yesterday and 3 cups</labl>
+      </catgry>
+      <catgry>
+        <catValu>16</catValu>
+        <labl>I did not drink tap water yesterday and 4 or more cups</labl>
+      </catgry>
+      <catgry>
+        <catValu>23</catValu>
+        <labl>A few sips and 1 cup 8 oz</labl>
+      </catgry>
+      <catgry>
+        <catValu>25</catValu>
+        <labl>A few sips and 3 cups</labl>
+      </catgry>
+      <catgry>
+        <catValu>34</catValu>
+        <labl>1 cup 8 oz and 2 cups</labl>
+      </catgry>
+      <catgry>
+        <catValu>45</catValu>
+        <labl>2 cups and 3 cups</labl>
+      </catgry>
+      <catgry>
+        <catValu>56</catValu>
+        <labl>3 cups and 4 or more cups</labl>
+      </catgry>
+      <catgry>
+        <catValu>123456</catValu>
+        <labl>All options selected</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="Q12" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="14" EndPos="14" width="3"/>
+      <labl>Q12. Yesterday, about how much bottled water like Aquafina, did you drink?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>I did not drink bottled water yesterday</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Less than 1 bottle (a sip or a few sips)</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>1 bottle (about 16-20 oz)</labl>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>2 bottles</labl>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>3 bottles</labl>
+      </catgry>
+      <catgry>
+        <catValu>6</catValu>
+        <labl>4 or more bottles</labl>
+      </catgry>
+      <catgry>
+        <catValu>12</catValu>
+        <labl>I did not drink bottled water yesterday and less than 1 bottle a sip or a few sips</labl>
+      </catgry>
+      <catgry>
+        <catValu>14</catValu>
+        <labl>I did not drink bottled water yesterday and 2 bottles</labl>
+      </catgry>
+      <catgry>
+        <catValu>16</catValu>
+        <labl>I did not drink bottled water yesterday and 4 or more bottles</labl>
+      </catgry>
+      <catgry>
+        <catValu>23</catValu>
+        <labl>Less than 1 bottle a sip or a few sips and 1 bottle about 16-20 oz</labl>
+      </catgry>
+      <catgry>
+        <catValu>34</catValu>
+        <labl>1 bottle about 16-20 oz and 2 bottles</labl>
+      </catgry>
+      <catgry>
+        <catValu>134</catValu>
+        <labl>I did not drink bottled water yesterday, 1 bottle about 16-20 oz, and 2 bottles</labl>
+      </catgry>
+      <catgry>
+        <catValu>245</catValu>
+        <labl>Less than 1 bottle a sip or a few sips, 2 bottles, and 3 bottles</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>5</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="Q13" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="15" EndPos="15" width="2"/>
+      <labl>Q13. How often do you usually drink sugary drinks?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Every day</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>A few times a week</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Once a week</labl>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Twice a month</labl>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>Once a month</labl>
+      </catgry>
+      <catgry>
+        <catValu>6</catValu>
+        <labl>Less than once a month</labl>
+      </catgry>
+      <catgry>
+        <catValu>7</catValu>
+        <labl>Never</labl>
+      </catgry>
+      <catgry>
+        <catValu>12</catValu>
+        <labl>Every day and a few times a week</labl>
+      </catgry>
+      <catgry>
+        <catValu>13</catValu>
+        <labl>Every day and once a week</labl>
+      </catgry>
+      <catgry>
+        <catValu>15</catValu>
+        <labl>Every day and once a month</labl>
+      </catgry>
+      <catgry>
+        <catValu>17</catValu>
+        <labl>Every day and never</labl>
+      </catgry>
+      <catgry>
+        <catValu>23</catValu>
+        <labl>A few times a week and once a week</labl>
+      </catgry>
+      <catgry>
+        <catValu>25</catValu>
+        <labl>A few times a week and once a month</labl>
+      </catgry>
+      <catgry>
+        <catValu>26</catValu>
+        <labl>A few times a week and less than once a month</labl>
+      </catgry>
+      <catgry>
+        <catValu>27</catValu>
+        <labl>A few times a week and never</labl>
+      </catgry>
+      <catgry>
+        <catValu>34</catValu>
+        <labl>Once a week and twice a month</labl>
+      </catgry>
+      <catgry>
+        <catValu>36</catValu>
+        <labl>Once a week and less than once a month</labl>
+      </catgry>
+      <catgry>
+        <catValu>46</catValu>
+        <labl>Twice a month and less than once a month</labl>
+      </catgry>
+      <catgry>
+        <catValu>47</catValu>
+        <labl>Twice a month and never</labl>
+      </catgry>
+      <catgry>
+        <catValu>67</catValu>
+        <labl>Less than once a month and never</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>5</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="Q14" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="16" EndPos="16" width="6"/>
+      <labl>Q14. In the past week, where have you gotten sugary drinks (Check all that apply)</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>At your home or someone else's home</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>At school</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>At a restaurant</labl>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>At a store</labl>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>Somewhere else</labl>
+      </catgry>
+      <catgry>
+        <catValu>6</catValu>
+        <labl>I did not get any sugary drinks in the past week</labl>
+      </catgry>
+      <catgry>
+        <catValu>12</catValu>
+        <labl>At your home or someone else's home and at school</labl>
+      </catgry>
+      <catgry>
+        <catValu>13</catValu>
+        <labl>At your home or someone else's home and at a restaurant</labl>
+      </catgry>
+      <catgry>
+        <catValu>14</catValu>
+        <labl>At your home or someone else's home and at a store</labl>
+      </catgry>
+      <catgry>
+        <catValu>15</catValu>
+        <labl>At your home or someone else's home and somewhere else</labl>
+      </catgry>
+      <catgry>
+        <catValu>16</catValu>
+        <labl>At your home or someone else's home and I did not get any sugary drinks in the past week</labl>
+      </catgry>
+      <catgry>
+        <catValu>23</catValu>
+        <labl>At school and at a restaurant</labl>
+      </catgry>
+      <catgry>
+        <catValu>24</catValu>
+        <labl>At school and at a store</labl>
+      </catgry>
+      <catgry>
+        <catValu>25</catValu>
+        <labl>At school and somewhere else</labl>
+      </catgry>
+      <catgry>
+        <catValu>34</catValu>
+        <labl>At a restaurant and at a store</labl>
+      </catgry>
+      <catgry>
+        <catValu>35</catValu>
+        <labl>At a restaurant and somewhere else</labl>
+      </catgry>
+      <catgry>
+        <catValu>45</catValu>
+        <labl>At a store and somewhere else</labl>
+      </catgry>
+      <catgry>
+        <catValu>56</catValu>
+        <labl>Somewhere else and I did not get any sugary drinks in the past week</labl>
+      </catgry>
+      <catgry>
+        <catValu>123</catValu>
+        <labl>At your home or someone else's home, at school, and at a restaurant</labl>
+      </catgry>
+      <catgry>
+        <catValu>124</catValu>
+        <labl>At your home or someone else's home, at school, and at a store</labl>
+      </catgry>
+      <catgry>
+        <catValu>125</catValu>
+        <labl>At your home or someone else's home, at school, and somewhere else</labl>
+      </catgry>
+      <catgry>
+        <catValu>134</catValu>
+        <labl>At your home or someone else's home, at a restaurant, and at a store</labl>
+      </catgry>
+      <catgry>
+        <catValu>135</catValu>
+        <labl>At your home or someone else's home, at a restaurant, and somewhere else</labl>
+      </catgry>
+      <catgry>
+        <catValu>145</catValu>
+        <labl>At your home or someone else's home, at a store, and somewhere else</labl>
+      </catgry>
+      <catgry>
+        <catValu>234</catValu>
+        <labl>At school, at a restaurant, and at a store</labl>
+      </catgry>
+      <catgry>
+        <catValu>235</catValu>
+        <labl>At school, at a restaurant, and somewhere else</labl>
+      </catgry>
+      <catgry>
+        <catValu>245</catValu>
+        <labl>At school, at a store, and somewhere else</labl>
+      </catgry>
+      <catgry>
+        <catValu>345</catValu>
+        <labl>At a restaurant, at a store, and somewhere else</labl>
+      </catgry>
+      <catgry>
+        <catValu>456</catValu>
+        <labl>At a store, somewhere else, and I did not get any sugary drinks in the past week</labl>
+      </catgry>
+      <catgry>
+        <catValu>1234</catValu>
+        <labl>At your home or someone else's home, at school, at a restaurant, and at a store</labl>
+      </catgry>
+      <catgry>
+        <catValu>1235</catValu>
+        <labl>At your home or someone else's home, at school, at a restaurant, and somewhere else</labl>
+      </catgry>
+      <catgry>
+        <catValu>1245</catValu>
+        <labl>At your home or someone else's home, at school, at a store, and somewhere else</labl>
+      </catgry>
+      <catgry>
+        <catValu>1345</catValu>
+        <labl>At your home or someone else's home, at a restaurant, at a store, and somewhere else</labl>
+      </catgry>
+      <catgry>
+        <catValu>2356</catValu>
+        <labl>At school, at a restaurant, somewhere else, and I did not get any sugary drinks in the past week</labl>
+      </catgry>
+      <catgry>
+        <catValu>12345</catValu>
+        <labl>At your home or someone else's home, at school, at a restaurant, at a store, and somewhere else</labl>
+      </catgry>
+      <catgry>
+        <catValu>13456</catValu>
+        <labl>At your/someone else's home, at a restaurant, at a store, somewhere else, and I did not get any sugary drinks</labl>
+      </catgry>
+      <catgry>
+        <catValu>123456</catValu>
+        <labl>All options selected</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="Q15" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="17" EndPos="17" width="1"/>
+      <labl>Q15. How important is a large portion when you are deciding whether to buy a beverage?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Not at all important</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Somewhat important</labl>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>Very important</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>5</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="Q16" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="18" EndPos="18" width="1"/>
+      <labl>Q16. How important is a low price when you are deciding whether to buy a beverage?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Not at all important</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Somewhat important</labl>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>Very important</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>5</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="Q17" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="19" EndPos="19" width="5"/>
+      <labl>Q17. How important is it that a beverage is low in calorie when you are deciding whether to buy it?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Not at all important</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Somewhat important</labl>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>Very important</labl>
+      </catgry>
+      <catgry>
+        <catValu>13</catValu>
+        <labl>Not at all important and somewhat important</labl>
+      </catgry>
+      <catgry>
+        <catValu>15</catValu>
+        <labl>Not at all important and very important</labl>
+      </catgry>
+      <catgry>
+        <catValu>23</catValu>
+        <labl>2 and somewhat important</labl>
+      </catgry>
+      <catgry>
+        <catValu>24</catValu>
+        <labl>2 and 4</labl>
+      </catgry>
+      <catgry>
+        <catValu>25</catValu>
+        <labl>2 and very important</labl>
+      </catgry>
+      <catgry>
+        <catValu>34</catValu>
+        <labl>Somewhat important and 4</labl>
+      </catgry>
+      <catgry>
+        <catValu>35</catValu>
+        <labl>Somewhat important and very important</labl>
+      </catgry>
+      <catgry>
+        <catValu>45</catValu>
+        <labl>4, and very important</labl>
+      </catgry>
+      <catgry>
+        <catValu>145</catValu>
+        <labl>Not at all important, 4, and very important</labl>
+      </catgry>
+      <catgry>
+        <catValu>345</catValu>
+        <labl>Somewhat important, 4, and very important</labl>
+      </catgry>
+      <catgry>
+        <catValu>12345</catValu>
+        <labl>All options selected</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>7</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="Q18" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="20" EndPos="20" width="6"/>
+      <labl>Q18. Do you believe drinking tap water is (bad to good for health)</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Bad for health</labl>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Neither</labl>
+      </catgry>
+      <catgry>
+        <catValu>7</catValu>
+        <labl>Good for health</labl>
+      </catgry>
+      <catgry>
+        <catValu>12</catValu>
+        <labl>Bad for health and 2</labl>
+      </catgry>
+      <catgry>
+        <catValu>13</catValu>
+        <labl>Bad for health and 3</labl>
+      </catgry>
+      <catgry>
+        <catValu>14</catValu>
+        <labl>Bad for health and neither</labl>
+      </catgry>
+      <catgry>
+        <catValu>16</catValu>
+        <labl>Bad for health and 6</labl>
+      </catgry>
+      <catgry>
+        <catValu>17</catValu>
+        <labl>Bad for health and good for health</labl>
+      </catgry>
+      <catgry>
+        <catValu>27</catValu>
+        <labl>2 and good for health</labl>
+      </catgry>
+      <catgry>
+        <catValu>34</catValu>
+        <labl>3 and neither</labl>
+      </catgry>
+      <catgry>
+        <catValu>37</catValu>
+        <labl>3 and good for health</labl>
+      </catgry>
+      <catgry>
+        <catValu>46</catValu>
+        <labl>Neither and 6</labl>
+      </catgry>
+      <catgry>
+        <catValu>47</catValu>
+        <labl>Neither and good for health</labl>
+      </catgry>
+      <catgry>
+        <catValu>57</catValu>
+        <labl>5 and good for health</labl>
+      </catgry>
+      <catgry>
+        <catValu>67</catValu>
+        <labl>6 and good for health</labl>
+      </catgry>
+      <catgry>
+        <catValu>467</catValu>
+        <labl>Neither, 6, and good for health</labl>
+      </catgry>
+      <catgry>
+        <catValu>567</catValu>
+        <labl>5, 6, and good for health</labl>
+      </catgry>
+      <catgry>
+        <catValu>1247</catValu>
+        <labl>Bad for health, 2, neither, and good for health</labl>
+      </catgry>
+      <catgry>
+        <catValu>1457</catValu>
+        <labl>Bad for health, neither, 5, good for health</labl>
+      </catgry>
+      <catgry>
+        <catValu>3567</catValu>
+        <labl>3, 5, 6, and good for health</labl>
+      </catgry>
+      <catgry>
+        <catValu>12346</catValu>
+        <labl>Bad for health, 2, 3, neither, and 6</labl>
+      </catgry>
+      <catgry>
+        <catValu>123467</catValu>
+        <labl>Bad for health, 2, 3, neither, 6, and good for health</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="Q19" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="21" EndPos="21" width="7"/>
+      <labl>Q19. Do you believe drinking bottled water is (bad to good for health)</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Bad for health</labl>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Neither</labl>
+      </catgry>
+      <catgry>
+        <catValu>7</catValu>
+        <labl>Good for health</labl>
+      </catgry>
+      <catgry>
+        <catValu>12</catValu>
+        <labl>Bad for health and 2</labl>
+      </catgry>
+      <catgry>
+        <catValu>14</catValu>
+        <labl>Bad for health and neither</labl>
+      </catgry>
+      <catgry>
+        <catValu>15</catValu>
+        <labl>Bad for health and 5</labl>
+      </catgry>
+      <catgry>
+        <catValu>17</catValu>
+        <labl>Bad for health and good for health</labl>
+      </catgry>
+      <catgry>
+        <catValu>27</catValu>
+        <labl>2 and good for health</labl>
+      </catgry>
+      <catgry>
+        <catValu>34</catValu>
+        <labl>3 and neither</labl>
+      </catgry>
+      <catgry>
+        <catValu>45</catValu>
+        <labl>Neither and 5</labl>
+      </catgry>
+      <catgry>
+        <catValu>47</catValu>
+        <labl>Neither and good for health</labl>
+      </catgry>
+      <catgry>
+        <catValu>57</catValu>
+        <labl>5 and good for health</labl>
+      </catgry>
+      <catgry>
+        <catValu>67</catValu>
+        <labl>6 and good for health</labl>
+      </catgry>
+      <catgry>
+        <catValu>124</catValu>
+        <labl>Bad for health, 2, and neither</labl>
+      </catgry>
+      <catgry>
+        <catValu>125</catValu>
+        <labl>Bad for health, 2, and 5</labl>
+      </catgry>
+      <catgry>
+        <catValu>367</catValu>
+        <labl>3, 6, and good for health</labl>
+      </catgry>
+      <catgry>
+        <catValu>567</catValu>
+        <labl>5, 6, and good for health</labl>
+      </catgry>
+      <catgry>
+        <catValu>1237</catValu>
+        <labl>Bad for health, 2, 3, and good for health</labl>
+      </catgry>
+      <catgry>
+        <catValu>1257</catValu>
+        <labl>Bad for health, 2, 5, and good for health</labl>
+      </catgry>
+      <catgry>
+        <catValu>12345</catValu>
+        <labl>Bad for health, 2, 3, neither, and 5</labl>
+      </catgry>
+      <catgry>
+        <catValu>12357</catValu>
+        <labl>Bad for health, 2, 3, 5, and good for health</labl>
+      </catgry>
+      <catgry>
+        <catValu>1234567</catValu>
+        <labl>All options selected</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>9</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="Q20" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="22" EndPos="22" width="1"/>
+      <labl>Q20. About how much of your own money do you spend per week on sugary drinks? (filler)</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>5</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="Q20A" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="23" EndPos="23" width="6"/>
+      <labl>Q20a. About how much of your own money do you spend per week on sugary drinks?</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="Q21" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="24" EndPos="24" width="1"/>
+      <labl>Q21. Are there any rules in your house limiting the amount of sugary drinks that you are allowed to have each day?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>5</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="Q22A" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="25" EndPos="25" width="9"/>
+      <labl>22A. Yesterday, about how many servings of: salty snacks</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>String</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>6</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Left</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="Q22B" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="26" EndPos="26" width="9"/>
+      <labl>22B. Yesterday, about how many servings of: cookies</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>String</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>6</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Left</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="Q22C" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="27" EndPos="27" width="6"/>
+      <labl>22C. Yesterday, about how many servings of: candy</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>String</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>6</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Left</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="Q22D" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="28" EndPos="28" width="9"/>
+      <labl>22D. Yesterday, about how many servings of: fruit</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>String</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>6</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Left</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="Q22E" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="29" EndPos="29" width="9"/>
+      <labl>22E. Yesterday, about how many servings of: dark green vegetables</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>String</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>6</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Left</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="Q23" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="30" EndPos="30" width="1"/>
+      <labl>23. Past 7 days (P7D), on how many days were you physically active for a total of at least 60 min per day?</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>5</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="Q24" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="31" EndPos="31" width="1"/>
+      <labl>24. Past 7 days (P7D), on how many days did you do exercise to strengthen or tone your muscles?</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>5</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="Q25" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="32" EndPos="32" width="1"/>
+      <labl>25. How much do you weigh without your shoes on? (filler)</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>5</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="Q25A" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="33" EndPos="33" width="6"/>
+      <labl>25a. How much do you weigh without your shoes on? (Pounds)</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="Q26" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="34" EndPos="34" width="1"/>
+      <labl>26. How tall are you without your shoes on? (filler)</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>5</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="Q26A" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="35" EndPos="35" width="3"/>
+      <labl>26a. How tall are you without your shoes on? (Feet)</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>6</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="Q26B" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="36" EndPos="36" width="3"/>
+      <labl>26b. How tall are you without your shoes on? (Inches)</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>6</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="Q27" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="37" EndPos="37" width="1"/>
+      <labl>27. Have you heard of or seen any information about Mixify or the Balance Calories Initiative of the American Beverage Association (ABA)?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>5</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="Q28" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="38" EndPos="38" width="4"/>
+      <labl>28. If yes, where did you hear of Mixify or the Balance Calories Initiative (check all)</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>On the internet</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>At a store</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>On a billboard</labl>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>On a bus advertisement</labl>
+      </catgry>
+      <catgry>
+        <catValu>12</catValu>
+        <labl>On the internet and at a store</labl>
+      </catgry>
+      <catgry>
+        <catValu>13</catValu>
+        <labl>On the internet and on a billboard</labl>
+      </catgry>
+      <catgry>
+        <catValu>14</catValu>
+        <labl>On the internet and on a bus advertisement</labl>
+      </catgry>
+      <catgry>
+        <catValu>23</catValu>
+        <labl>At a store and on a billboard</labl>
+      </catgry>
+      <catgry>
+        <catValu>24</catValu>
+        <labl>At a store and on a bus advertisement</labl>
+      </catgry>
+      <catgry>
+        <catValu>34</catValu>
+        <labl>On a billboard and on a bus advertisement</labl>
+      </catgry>
+      <catgry>
+        <catValu>123</catValu>
+        <labl>On the internet, at a store, and on a billboard</labl>
+      </catgry>
+      <catgry>
+        <catValu>124</catValu>
+        <labl>On the internet, at a store, and on a bus advertisement</labl>
+      </catgry>
+      <catgry>
+        <catValu>134</catValu>
+        <labl>On the internet, on a billboard, and on a bus advertisement</labl>
+      </catgry>
+      <catgry>
+        <catValu>234</catValu>
+        <labl>At a store, on a billboard, and on a bus advertisement</labl>
+      </catgry>
+      <catgry>
+        <catValu>1234</catValu>
+        <labl>All options selected</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>6</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="Q28A" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="39" EndPos="39" width="51"/>
+      <labl>28a. If yes, where did you hear of Mixify or the Balance Calories Initiative (Other specify)</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>String</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>19</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Left</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="SURVEY_DATE" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="40" EndPos="40" width="5"/>
+      <labl>[Recode] Date of survey</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>13</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="SURVEY_MONTH" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="41" EndPos="41" width="2"/>
+      <labl>[Recode] Month of survey</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>14</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="SURVEY_YEAR" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="42" EndPos="42" width="4"/>
+      <labl>[Recode] Year of survey</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>13</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="RACE_LATINO" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="43" EndPos="43" width="1"/>
+      <labl>[Derived] How do you describe yourself: Latino/Latina</labl>
+      <catgry>
+        <catValu>0</catValu>
+        <labl>Not selected</labl>
+      </catgry>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Selected</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>13</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="RACE_BLACK" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="44" EndPos="44" width="1"/>
+      <labl>[Derived] How do you describe yourself: Black, African American</labl>
+      <catgry>
+        <catValu>0</catValu>
+        <labl>Not selected</labl>
+      </catgry>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Selected</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>12</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="RACE_WHITE" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="45" EndPos="45" width="1"/>
+      <labl>[Derived] How do you describe yourself: White</labl>
+      <catgry>
+        <catValu>0</catValu>
+        <labl>Not selected</labl>
+      </catgry>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Selected</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>12</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="RACE_ASIAN" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="46" EndPos="46" width="1"/>
+      <labl>[Derived] How do you describe yourself: Asian or Asian American</labl>
+      <catgry>
+        <catValu>0</catValu>
+        <labl>Not selected</labl>
+      </catgry>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Selected</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>12</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="RACE_PACIFIC" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="47" EndPos="47" width="1"/>
+      <labl>[Derived] How do you describe yourself: Pacific Islander</labl>
+      <catgry>
+        <catValu>0</catValu>
+        <labl>Not selected</labl>
+      </catgry>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Selected</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>14</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="RACE_AMINDIAN" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="48" EndPos="48" width="1"/>
+      <labl>[Derived] How do you describe yourself: American Indian or Alaska Native</labl>
+      <catgry>
+        <catValu>0</catValu>
+        <labl>Not selected</labl>
+      </catgry>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Selected</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>15</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="RACE_OTHER" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="49" EndPos="49" width="1"/>
+      <labl>[Derived] How do you describe yourself: Some other race or ethnicity</labl>
+      <catgry>
+        <catValu>0</catValu>
+        <labl>Not selected</labl>
+      </catgry>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Selected</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>12</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="RACE_3G" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="50" EndPos="50" width="1"/>
+      <labl>[Derived] 3 race/ethnicity groups (Black, White, multiple/other)</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Black</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>White</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Multi/Other</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>9</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="VISIT_FREQ" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="51" EndPos="51" width="1"/>
+      <labl>[Recode] How often do you visit this store or restaurant?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Almost every day (5-7 x/week)</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>A few days per week (2-4 x/week)</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>About once a week</labl>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Occasionally (1-3x per month)</labl>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>Seldom (less than once a month)</labl>
+      </catgry>
+      <catgry>
+        <catValu>6</catValu>
+        <labl>Rarely (a few times a year or less)</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>12</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="REGULAR_SODA" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="52" EndPos="52" width="1"/>
+      <labl>[Recode] Yesterday, about how much regular soda did you drink?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>None</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>1 can or less</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>2 cans</labl>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>3 cans</labl>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>4 +</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>14</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="REGULAR_SODA_TOPCODE" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="53" EndPos="53" width="1"/>
+      <labl>[Recode] Yesterday, about how much regular soda did you drink? (0 to 4)</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>22</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="REGULAR_SODA_ANY" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="54" EndPos="54" width="1"/>
+      <labl>[Recode] Yesterday, how much regular soda did you drink (any)?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>None</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Some</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>18</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="REGULAR_SODA_2CANS" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="55" EndPos="55" width="1"/>
+      <labl>[Recode] Yesterday, how much regular soda did you drink (2 cans +)?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>&lt; 2 cans</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>2 or more</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>20</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="DIET_SODA" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="56" EndPos="56" width="1"/>
+      <labl>[Recode] Yesterday, about how much diet soda did you drink?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>None</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>1 can or less</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>2 cans</labl>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>3 cans</labl>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>4 +</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>11</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="DIET_SODA_TOPCODE" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="57" EndPos="57" width="1"/>
+      <labl>[Recode] Yesterday, about how much diet soda did you drink?(0 to 4)</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>19</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="DIET_SODA_ANY" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="58" EndPos="58" width="1"/>
+      <labl>[Recode] Yesterday, how much diet soda did you drink (any)?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>None</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Some</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>15</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="DIET_SODA_2CANS" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="59" EndPos="59" width="1"/>
+      <labl>[Recode] Yesterday, how much diet soda did you drink (2 cans +)?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>&lt; 2 cans</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>2 or more</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>17</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="SPORTS_DRINK" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="60" EndPos="60" width="1"/>
+      <labl>[Recode] Yesterday, about how many sports or energy drinks did you drink?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>None</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>1 can or less</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>2 cans</labl>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>3 cans</labl>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>4 +</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>14</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="SPORTS_DRINK_TOPCODE" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="61" EndPos="61" width="1"/>
+      <labl>[Recode] Yesterday, about how many sports or energy drinks did you drink? (0 to 4)</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>22</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="SPORTS_DRINK_ANY" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="62" EndPos="62" width="1"/>
+      <labl>[Recode] Yesterday, about how many sports or energy drinks did you drink (any)?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>None</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Some</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>18</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="SPORTS_DRINK_2CANS" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="63" EndPos="63" width="1"/>
+      <labl>[Recode] Yesterday, about how many sports or energy drinks did you drink (2 cans +)?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>&lt; 2 cans</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>2 or more</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>20</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="FRUIT_JUICE" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="64" EndPos="64" width="1"/>
+      <labl>[Recode] Yesterday, about how much 100% fruit juice did you drink?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>None</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>1 can or less</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>2 cans</labl>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>3 cans</labl>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>4 +</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>13</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="FRUIT_JUICE_TOPCODE" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="65" EndPos="65" width="1"/>
+      <labl>[Recode] Yesterday, about how much 100% fruit juice did you drink? (0 to 4)</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>21</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="FRUIT_JUICE_ANY" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="66" EndPos="66" width="1"/>
+      <labl>[Recode] Yesterday, about how much 100% fruit juice did you drink (any)?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>None</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Some</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>17</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="FRUIT_JUICE_2CANS" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="67" EndPos="67" width="1"/>
+      <labl>[Recode] Yesterday, about how much 100% fruit juice did you drink (2 cans +)?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>&lt; 2 cans</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>2 or more</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>19</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="SWEET_DRINK" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="68" EndPos="68" width="1"/>
+      <labl>[Recode] Yesterday, about how much sweetened fruit/tea/coffee did you drink?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>None</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>1 can or less</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>2 cans</labl>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>3 cans</labl>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>4 +</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>13</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="SWEET_DRINK_TOPCODE" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="69" EndPos="69" width="1"/>
+      <labl>[Recode] Yesterday, about how much sweetened fruit/tea/coffee did you drink? (0 to 4)</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>21</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="SWEET_DRINK_ANY" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="70" EndPos="70" width="1"/>
+      <labl>[Recode] Yesterday, how much sweetened fruit/tea/coffee did you drink (any)?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>None</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Some</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>17</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="SWEET_DRINK_2CANS" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="71" EndPos="71" width="1"/>
+      <labl>[Recode] Yesterday, how much sweetened fruit/tea/coffee did you drink (2 cans +)?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>&lt; 2 cans</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>2 or more</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>19</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="SSB_CONSUMPTION" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="72" EndPos="72" width="2"/>
+      <labl>[Derived] Estimate of Sugar Sweetened Beverages (SSB) consumed yesterday (soda, sports, and sweet drinks)</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>17</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="SSB_CONSUMPTION_ANY" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="73" EndPos="73" width="1"/>
+      <labl>[Derived] Sugar Sweetened Beverages (SSB) consumed (none vs some)</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>None</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Some</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>21</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="SSB_CONSUMPTION_2CUP" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="74" EndPos="74" width="1"/>
+      <labl>[Derived] Sugar Sweetened Beverages (SSB) consumed (2 or more cups)</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>None to 1cup</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>2+</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>22</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="SSB_CONSUMPTION_3CUP" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="75" EndPos="75" width="1"/>
+      <labl>[Derived] Sugar Sweetened Beverages (SSB) consumed (3 or more cups)</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>None to 2cup</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>3+</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>22</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="SSB_CONSUMPTION_4CUP" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="76" EndPos="76" width="1"/>
+      <labl>[Derived] Sugar Sweetened Beverages (SSB) consumed (4 or more cups)</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>None to 3cup</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>4+</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>22</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="HEAVY_SSB" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="77" EndPos="77" width="1"/>
+      <labl>[Derived] Indicator if consume 4 or more Sugar Sweetened Beverages (SSB)</labl>
+      <catgry>
+        <catValu>0</catValu>
+        <labl>No</labl>
+      </catgry>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>11</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="TAP_WATER" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="78" EndPos="78" width="1"/>
+      <labl>[Recode] Yesterday, how much tap water did you drink?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>None</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>A few sips</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>1 cup</labl>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>2 cups</labl>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>3 cups</labl>
+      </catgry>
+      <catgry>
+        <catValu>6</catValu>
+        <labl>4 +</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>11</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="TAP_WATER_TOPCODE" dcml="1" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="79" EndPos="79" width="3"/>
+      <labl>[Recode] Yesterday, how much tap water did you drink? (0 to 4)</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>19</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="TAP_WATER_ANY" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="80" EndPos="80" width="1"/>
+      <labl>[Recode] Yesterday, how much tap water did you drink? (any)?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>None</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Some</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>15</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="TAP_WATER_2CUPS" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="81" EndPos="81" width="1"/>
+      <labl>[Recode] Yesterday, how much tap water did you drink? (2 cups +)?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>&lt; 2 cups</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>2 or more</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>17</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="BOTTLED_WATER" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="82" EndPos="82" width="1"/>
+      <labl>[Recode] Yesterday, how much bottled water did you drink?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>None</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Less than 1 bottle</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>1 bottle</labl>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>2 bottles</labl>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>3 bottles</labl>
+      </catgry>
+      <catgry>
+        <catValu>6</catValu>
+        <labl>4 +</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>15</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="BOTTLED_WATER_TOPCODE" dcml="1" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="83" EndPos="83" width="3"/>
+      <labl>[Recode] Yesterday, how much bottled water did you drink? (0 to 4)</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>23</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="BOTTLED_WATER_ANY" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="84" EndPos="84" width="1"/>
+      <labl>[Recode] Yesterday, how much bottled water did you drink? (any)?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>None</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Some</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>19</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="BOTTLED_WATER_2" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="85" EndPos="85" width="1"/>
+      <labl>[Recode] Yesterday, how much bottled water did you drink? (2 cups +)?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>&lt; 2 bottle</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>2 or more</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>17</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="WATER_CONSUMPTION" dcml="1" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="86" EndPos="86" width="3"/>
+      <labl>[Derived] Estimate of tap and bottled water consumed yesterday</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>19</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="HOW_OFTEN" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="87" EndPos="87" width="1"/>
+      <labl>[Recode] How often do you usually drink sugary drinks?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Every day</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>A few times a week</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Once a week</labl>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Twice a month</labl>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>Once a month</labl>
+      </catgry>
+      <catgry>
+        <catValu>6</catValu>
+        <labl>Less than once a month</labl>
+      </catgry>
+      <catgry>
+        <catValu>7</catValu>
+        <labl>Never</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>11</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="WHERE_HOME" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="88" EndPos="88" width="1"/>
+      <labl>[Derived] In the past week, where have you gotten sugary drinks: home</labl>
+      <catgry>
+        <catValu>0</catValu>
+        <labl>Not selected</labl>
+      </catgry>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Selected</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>12</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="WHERE_SCHOOL" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="89" EndPos="89" width="1"/>
+      <labl>[Derived] In the past week, where have you gotten sugary drinks: school</labl>
+      <catgry>
+        <catValu>0</catValu>
+        <labl>Not selected</labl>
+      </catgry>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Selected</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>14</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="WHERE_RESTAURANT" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="90" EndPos="90" width="1"/>
+      <labl>[Derived] In the past week, where have you gotten sugary drinks: restaurant</labl>
+      <catgry>
+        <catValu>0</catValu>
+        <labl>Not selected</labl>
+      </catgry>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Selected</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>18</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="WHERE_STORE" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="91" EndPos="91" width="1"/>
+      <labl>[Derived] In the past week, where have you gotten sugary drinks: store</labl>
+      <catgry>
+        <catValu>0</catValu>
+        <labl>Not selected</labl>
+      </catgry>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Selected</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>13</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="WHERE_OTHER" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="92" EndPos="92" width="1"/>
+      <labl>[Derived] In the past week, where have you gotten sugary drinks: somewhere else</labl>
+      <catgry>
+        <catValu>0</catValu>
+        <labl>Not selected</labl>
+      </catgry>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Selected</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>13</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="WHERE_NO" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="93" EndPos="93" width="1"/>
+      <labl>[Derived] In the past week, where have you gotten sugary drinks: I did not</labl>
+      <catgry>
+        <catValu>0</catValu>
+        <labl>Not selected</labl>
+      </catgry>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Selected</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>10</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="WHERE_NOT_HOME" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="94" EndPos="94" width="1"/>
+      <labl>[Derived] Where have you gotten sugary drinks (home vs not home)</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>I did not drink soda</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Only at home</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Got away from home</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>16</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="LARGE_PORTION" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="95" EndPos="95" width="1"/>
+      <labl>[Recode] How important is a large portion?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Not at all Important</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Somewhat Important</labl>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>Very Important</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>15</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="LOW_PRICE" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="96" EndPos="96" width="1"/>
+      <labl>[Recode] How important a low price?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Not at all Important</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Somewhat Important</labl>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>Very Important</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>11</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="LOW_CALORIE" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="97" EndPos="97" width="1"/>
+      <labl>[Recode] How important is it that the beverage is low in calories?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Not at all Important</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Somewhat Important</labl>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>Very Important</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>13</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="HEALTH_TAP_WATER" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="98" EndPos="98" width="1"/>
+      <labl>[Recode] Do you believe drinking tap water is healthy?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Bad for health</labl>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Neither</labl>
+      </catgry>
+      <catgry>
+        <catValu>7</catValu>
+        <labl>Good for health</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>18</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="HEALTH_BOTTLED_WATER" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="99" EndPos="99" width="1"/>
+      <labl>[Recode] Do you believe drinking bottled water is healthy?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Bad for health</labl>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Neither</labl>
+      </catgry>
+      <catgry>
+        <catValu>7</catValu>
+        <labl>Good for health</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>22</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="Q22A_RECODE" dcml="1" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="100" EndPos="100" width="4"/>
+      <labl>[Recode] 22A. Yesterday, about how many servings of: salty snacks</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>13</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="Q22B_RECODE" dcml="1" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="101" EndPos="101" width="4"/>
+      <labl>[Recode] 22B. Yesterday, about how many servings of: cookies</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>13</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="Q22C_RECODE" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="102" EndPos="102" width="2"/>
+      <labl>[Recode] 22C. Yesterday, about how many servings of: candy</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>13</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="Q22D_RECODE" dcml="1" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="103" EndPos="103" width="4"/>
+      <labl>[Recode] 22D. Yesterday, about how many servings of: fruit</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>13</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="Q22E_RECODE" dcml="1" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="104" EndPos="104" width="4"/>
+      <labl>[Recode] 22E. Yesterday, about how many servings of: dark green vegetables</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>13</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="Q22_RECODE" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="105" EndPos="105" width="1"/>
+      <labl>Q22_RECODE</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>12</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="Q22_SUGARSNACK" dcml="1" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="106" EndPos="106" width="4"/>
+      <labl>[Derived] servings of cookies and candy</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>16</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="Q22_JUNKSNACK" dcml="1" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="107" EndPos="107" width="4"/>
+      <labl>[Derived] servings of salty snacks, cookies and candy</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>15</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="Q22_FRUITVEG" dcml="12" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="108" EndPos="108" width="15"/>
+      <labl>[Derived] servings of fruit and dark green vegetables</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>18</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="Q23_TOPCODE" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="109" EndPos="109" width="1"/>
+      <labl>[Recode] [top code to 7] Past 7 days (P7D), on how many days were you physically active for a total of at least 60 min per day?</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>13</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="Q24_TOPCODE" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="110" EndPos="110" width="1"/>
+      <labl>[Recode] [top code to 7] Past 7 days (P7D), on how many days did you do exercise to strengthen or tone your muscles?</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>13</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="BCI" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="111" EndPos="111" width="1"/>
+      <labl>Balance Calories Initiative (recode of Q27)</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>5</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="MIXIFY_INTERNET" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="112" EndPos="112" width="1"/>
+      <labl>[Derived] Have you heard of Mixify or Balance Calories Initiative (BCI): internet</labl>
+      <catgry>
+        <catValu>0</catValu>
+        <labl>Not selected</labl>
+      </catgry>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Selected</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>17</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="MIXIFY_STORE" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="113" EndPos="113" width="1"/>
+      <labl>[Derived] Have you heard of Mixify or Balance Calories Initiative (BCI): store</labl>
+      <catgry>
+        <catValu>0</catValu>
+        <labl>Not selected</labl>
+      </catgry>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Selected</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>14</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="MIXIFY_BILLBOARD" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="114" EndPos="114" width="1"/>
+      <labl>[Derived] Have you heard of Mixify or Balance Calories Initiative (BCI): billboard</labl>
+      <catgry>
+        <catValu>0</catValu>
+        <labl>Not selected</labl>
+      </catgry>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Selected</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>18</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="MIXIFY_BUS" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="115" EndPos="115" width="1"/>
+      <labl>[Derived] Have you heard of Mixify or Balance Calories Initiative (BCI): bus</labl>
+      <catgry>
+        <catValu>0</catValu>
+        <labl>Not selected</labl>
+      </catgry>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Selected</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>12</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="STATE" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="116" EndPos="116" width="1"/>
+      <labl>[Derived] State</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>AL</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>MI</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>7</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="LOCATION_FOUR" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="117" EndPos="117" width="1"/>
+      <labl>[Derived] Location (four locations)</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Birmingham</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>S.Delta</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Montgomery</labl>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>N.Delta</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>15</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="LOCATION" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="118" EndPos="118" width="1"/>
+      <labl>[Derived] Location</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Birmingham/S.Delta</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Montgomery/N.Delta</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>10</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="STORE_ID" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="119" EndPos="119" width="15"/>
+      <labl>Store ID (cleaned)</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>String</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>10</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Left</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="LOCATION_TEN" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="120" EndPos="120" width="2"/>
+      <labl>County code</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>CO</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>HU</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>JE</labl>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>LE</labl>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>MO</labl>
+      </catgry>
+      <catgry>
+        <catValu>6</catValu>
+        <labl>PA</labl>
+      </catgry>
+      <catgry>
+        <catValu>7</catValu>
+        <labl>QU</labl>
+      </catgry>
+      <catgry>
+        <catValu>8</catValu>
+        <labl>SH</labl>
+      </catgry>
+      <catgry>
+        <catValu>9</catValu>
+        <labl>TU</labl>
+      </catgry>
+      <catgry>
+        <catValu>10</catValu>
+        <labl>YA</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>14</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="WEIGHT_POUNDS" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="121" EndPos="121" width="3"/>
+      <labl>[Recode] Respondent weight in pounds</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>15</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="HEIGHT_INCH" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="122" EndPos="122" width="2"/>
+      <labl>[Recode] Respondent full height in inches</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>13</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="BMI_ADOLESCENT" dcml="1" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="123" EndPos="123" width="4"/>
+      <labl>[Derived] Body Mass Index</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>16</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="BMI_4CAT" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="124" EndPos="124" width="1"/>
+      <labl>[Derived] Adolescent Body Mass Index (BMI) (Centers for Disease Control and Prevention (CDC) categories)</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Underweight</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Normal/healthy</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Overweight</labl>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Obese</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>10</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="SUGAR_BEV_4_EVERYDAY" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="125" EndPos="125" width="1"/>
+      <labl>[Derived] Estimate consumed 4 or more sugary beverages every day</labl>
+      <catgry>
+        <catValu>0</catValu>
+        <labl>No</labl>
+      </catgry>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>22</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="AGEMOS" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="126" EndPos="126" width="3"/>
+      <labl>Adolescents age in months (note age was asked in years, not months)</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="SEX" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="127" EndPos="127" width="1"/>
+      <labl>Adolescent sex (1/male 2/female)</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Male</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Female</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>5</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="HEIGHT" dcml="11" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="128" EndPos="128" width="15"/>
+      <labl>Height in centimeters (cm).</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>18</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="WEIGHT" dcml="11" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="129" EndPos="129" width="15"/>
+      <labl>Weight kilograms (kg)</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>18</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="HEADCIR" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="130" EndPos="130" width="1"/>
+      <labl>Head circumference (cm)</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>9</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+  </dataDscr>
+</codeBook>

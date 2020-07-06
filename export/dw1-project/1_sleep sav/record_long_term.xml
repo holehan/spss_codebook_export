@@ -1,0 +1,2397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<codeBook xmlns="ddi:codebook:2_5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="ddi:codebook:2_5 http://www.ddialliance.org/Specification/DDI-Codebook/2.5/XMLSchema/codebook.xsd" version="2.5">
+  <docDscr>
+    <citation>
+      <titlStmt>
+        <titl>Codebook of sleep.sav</titl>
+      </titlStmt>
+      <prodStmt>
+        <producer role="DataWiz Export">
+          <list>
+            <itm>
+              <label>title</label>
+            </itm>
+            <itm>
+              <label>orcid</label>
+            </itm>
+            <itm>
+              <label>first name</label>
+              <p>Florian</p>
+            </itm>
+            <itm>
+              <label>last name</label>
+              <p>Grässle</p>
+            </itm>
+            <itm>
+              <label>department</label>
+            </itm>
+          </list>
+        </producer>
+        <prodDate>2020-07-06T10:28:54.897888</prodDate>
+        <software>DataWiz</software>
+      </prodStmt>
+    </citation>
+  </docDscr>
+  <stdyDscr>
+    <citation>
+      <titlStmt>
+        <titl>Dummystudie für Codebooktest</titl>
+      </titlStmt>
+      <rspStmt/>
+    </citation>
+  </stdyDscr>
+  <fileDscr>
+    <fileTxt>
+      <fileCitation>
+        <titlStmt>
+          <titl>sleep.sav</titl>
+        </titlStmt>
+        <verStmt>
+          <version>2020-06-29T13:55:54</version>
+          <verResp>fg@leibniz-psychology.org</verResp>
+          <notes>df</notes>
+        </verStmt>
+      </fileCitation>
+      <dataFingerprint type="dataFile">
+        <digitalFingerprintValue>6eff5a0590c3ab4a9d096650f2f92962</digitalFingerprintValue>
+        <algorithmSpecification>MD5</algorithmSpecification>
+      </dataFingerprint>
+      <dataFingerprint type="dataFile">
+        <digitalFingerprintValue>518f43c70584df28db73e2f32ffdacc62f66607a</digitalFingerprintValue>
+        <algorithmSpecification>SHA1</algorithmSpecification>
+      </dataFingerprint>
+      <dataFingerprint type="dataFile">
+        <digitalFingerprintValue>ee0e4da836fca2f11f09b47051e41da79d83a3aa1e24ca8b351f7e613671a4b3</digitalFingerprintValue>
+        <algorithmSpecification>SHA256</algorithmSpecification>
+      </dataFingerprint>
+      <fileCont>dfv</fileCont>
+      <fileStrc type="rectangular"/>
+      <format>comma-delimited</format>
+    </fileTxt>
+  </fileDscr>
+  <dataDscr>
+    <var name="id" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="1" EndPos="1" width="8"/>
+      <labl>Identification Number</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="sex" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="2" EndPos="2" width="8"/>
+      <labl>sex</labl>
+      <catgry>
+        <catValu>0</catValu>
+        <labl>female</labl>
+      </catgry>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>male</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="age" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="3" EndPos="3" width="8"/>
+      <labl>age</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="marital" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="4" EndPos="4" width="8"/>
+      <labl>marital status</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>single</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>married/defacto</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>divorced</labl>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>widowed</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="edlevel" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="5" EndPos="5" width="8"/>
+      <labl>highest education level achieved</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>primary school</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>secondary school</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>trade training/ post secondary training</labl>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>undergraduate degree</labl>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>postgraduate degree</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Ordinal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="weight" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="6" EndPos="6" width="8"/>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="height" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="7" EndPos="7" width="8"/>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="healthrate" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="8" EndPos="8" width="8"/>
+      <labl>general health</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>very poor</labl>
+      </catgry>
+      <catgry>
+        <catValu>10</catValu>
+        <labl>very good</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="fitrate" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="9" EndPos="9" width="8"/>
+      <labl>physical fitness</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>very poor</labl>
+      </catgry>
+      <catgry>
+        <catValu>10</catValu>
+        <labl>very good</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="weightrate" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="10" EndPos="10" width="8"/>
+      <labl>current weight</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>very underweight</labl>
+      </catgry>
+      <catgry>
+        <catValu>10</catValu>
+        <labl>very overweight</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="smoke" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="11" EndPos="11" width="8"/>
+      <labl>do you smoke</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>yes</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>no</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="smokenum" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="12" EndPos="12" width="8"/>
+      <labl>cigs per day</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="alchohol" dcml="2" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="13" EndPos="13" width="8"/>
+      <labl>how many alcoholic drinks per day</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="caffeine" dcml="2" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="14" EndPos="14" width="8"/>
+      <labl>how many caffeine drinks per day</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="hourwnit" dcml="1" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="15" EndPos="15" width="8"/>
+      <labl>hours sleep/ week nights</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="hourwend" dcml="1" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="16" EndPos="16" width="8"/>
+      <labl>hours sleep/ week ends</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="hourneed" dcml="1" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="17" EndPos="17" width="8"/>
+      <labl>how many hours sleep needed</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="trubslep" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="18" EndPos="18" width="8"/>
+      <labl>trouble falling asleep?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>yes</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>no</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="trubstay" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="19" EndPos="19" width="8"/>
+      <labl>trouble staying asleep</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>yes</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>no</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="wakenite" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="20" EndPos="20" width="8"/>
+      <labl>waking during night</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>yes</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>no</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="niteshft" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="21" EndPos="21" width="8"/>
+      <labl>work night shift or rotating shifts</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>yes</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>no</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>sometimes</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="liteslp" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="22" EndPos="22" width="8"/>
+      <labl>light sleeper?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>yes</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>no</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="refreshd" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="23" EndPos="23" width="8"/>
+      <labl>do you feel refreshed weekdays?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>yes</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>no</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="satsleep" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="24" EndPos="24" width="8"/>
+      <labl>satisfied with sleep amount</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>very dissatisfied</labl>
+      </catgry>
+      <catgry>
+        <catValu>10</catValu>
+        <labl>very satisfied</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="qualslp" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="25" EndPos="25" width="8"/>
+      <labl>quality of sleep</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>very poor</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>poor</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>fair</labl>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>good</labl>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>very good</labl>
+      </catgry>
+      <catgry>
+        <catValu>6</catValu>
+        <labl>excellent</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Ordinal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="stressmo" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="26" EndPos="26" width="8"/>
+      <labl>how stressed over last month?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>not at all</labl>
+      </catgry>
+      <catgry>
+        <catValu>10</catValu>
+        <labl>extremely stressed</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="medhelp" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="27" EndPos="27" width="8"/>
+      <labl>medication taken to help sleep?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>yes</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>no</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="problem" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="28" EndPos="28" width="8"/>
+      <labl>problem with sleep?</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>yes</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>no</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="impact1" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="29" EndPos="29" width="8"/>
+      <labl>mood</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>not at all</labl>
+      </catgry>
+      <catgry>
+        <catValu>10</catValu>
+        <labl>to a great extent</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="impact2" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="30" EndPos="30" width="8"/>
+      <labl>energy level</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>not at all</labl>
+      </catgry>
+      <catgry>
+        <catValu>10</catValu>
+        <labl>to a great extent</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="impact3" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="31" EndPos="31" width="8"/>
+      <labl>concent</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>not at all</labl>
+      </catgry>
+      <catgry>
+        <catValu>10</catValu>
+        <labl>to a great extent</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="impact4" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="32" EndPos="32" width="8"/>
+      <labl>memory</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>not at all</labl>
+      </catgry>
+      <catgry>
+        <catValu>10</catValu>
+        <labl>to a great extent</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="impact5" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="33" EndPos="33" width="8"/>
+      <labl>life sat</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>not at all</labl>
+      </catgry>
+      <catgry>
+        <catValu>10</catValu>
+        <labl>to a great extent</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="impact6" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="34" EndPos="34" width="8"/>
+      <labl>overall well-being</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>not at all</labl>
+      </catgry>
+      <catgry>
+        <catValu>10</catValu>
+        <labl>to a great extent</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="impact7" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="35" EndPos="35" width="8"/>
+      <labl>relationships</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>not at all</labl>
+      </catgry>
+      <catgry>
+        <catValu>10</catValu>
+        <labl>to a great extent</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="stopb" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="36" EndPos="36" width="8"/>
+      <labl>stop breathing</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>yes</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>no</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="restlss" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="37" EndPos="37" width="8"/>
+      <labl>restless sleeper</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>yes</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>no</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="drvsleep" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="38" EndPos="38" width="8"/>
+      <labl>asleep while driving</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>yes</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>no</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="drvresul" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="39" EndPos="39" width="8"/>
+      <labl>drive, result in acc due to sleepy</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>yes</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>no</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="ess" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="40" EndPos="40" width="8"/>
+      <labl>epworth sleepiness scale</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="anxiety" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="41" EndPos="41" width="8"/>
+      <labl>HADS Anxiety</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="depress" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="42" EndPos="42" width="8"/>
+      <labl>HADS Depression</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="fatigue" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="43" EndPos="43" width="8"/>
+      <labl>fatigued</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="lethargy" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="44" EndPos="44" width="8"/>
+      <labl>lethargic</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="tired" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="45" EndPos="45" width="8"/>
+      <labl>tired</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="sleepy" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="46" EndPos="46" width="8"/>
+      <labl>sleepy</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="energy" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="47" EndPos="47" width="8"/>
+      <labl>lack energy</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="stayslprec" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="48" EndPos="48" width="8"/>
+      <labl>prob stay asleep rec</labl>
+      <catgry>
+        <catValu>0</catValu>
+        <labl>no</labl>
+      </catgry>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>yes</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>10</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="getsleprec" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="49" EndPos="49" width="8"/>
+      <labl>prob fall asleep rec</labl>
+      <catgry>
+        <catValu>0</catValu>
+        <labl>no</labl>
+      </catgry>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>yes</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>11</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="qualsleeprec" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="50" EndPos="50" width="8"/>
+      <labl>qual sleep rec</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>very poor, poor</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>fair</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>good</labl>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>very good, excellent</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>12</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="totsas" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="51" EndPos="51" width="8"/>
+      <labl>sleepy &amp; assoc sensations scale</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="cigsgp3" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="52" EndPos="52" width="5"/>
+      <labl>cigs per day gp3</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>&lt;= 5</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>6 - 15</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>16+</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Ordinal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="agegp3" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="53" EndPos="53" width="5"/>
+      <labl>agegp3</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>&lt;= 37</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>38 - 50</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>51+</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Ordinal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="probsleeprec" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="54" EndPos="54" width="8"/>
+      <labl>prob sleep recode 01</labl>
+      <catgry>
+        <catValu>0</catValu>
+        <labl>no</labl>
+      </catgry>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>yes</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>10</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="drvslprec" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="55" EndPos="55" width="8"/>
+      <labl>fall asleep while driving</labl>
+      <catgry>
+        <catValu>0</catValu>
+        <labl>no</labl>
+      </catgry>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>yes</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>9</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+  </dataDscr>
+</codeBook>

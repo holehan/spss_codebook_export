@@ -1,0 +1,2290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<codeBook xmlns="ddi:codebook:2_5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="ddi:codebook:2_5 http://www.ddialliance.org/Specification/DDI-Codebook/2.5/XMLSchema/codebook.xsd" version="2.5">
+  <docDscr>
+    <citation>
+      <titlStmt>
+        <titl>Codebook of DarkTriadDate_person.sav</titl>
+      </titlStmt>
+      <prodStmt>
+        <producer role="DataWiz Export">
+          <list>
+            <itm>
+              <label>title</label>
+            </itm>
+            <itm>
+              <label>orcid</label>
+            </itm>
+            <itm>
+              <label>first name</label>
+              <p>Florian</p>
+            </itm>
+            <itm>
+              <label>last name</label>
+              <p>Grässle</p>
+            </itm>
+            <itm>
+              <label>department</label>
+            </itm>
+          </list>
+        </producer>
+        <prodDate>2020-07-06T10:29:05.298544</prodDate>
+        <software>DataWiz</software>
+      </prodStmt>
+    </citation>
+  </docDscr>
+  <stdyDscr>
+    <citation>
+      <titlStmt>
+        <titl>Dummystudie für Codebooktest</titl>
+      </titlStmt>
+      <rspStmt/>
+    </citation>
+  </stdyDscr>
+  <fileDscr>
+    <fileTxt>
+      <fileCitation>
+        <titlStmt>
+          <titl>DarkTriadDate_person.sav</titl>
+        </titlStmt>
+        <verStmt>
+          <version>2020-06-30T10:17:03</version>
+          <verResp>fg@leibniz-psychology.org</verResp>
+          <notes>inbitial upload</notes>
+        </verStmt>
+      </fileCitation>
+      <dataFingerprint type="dataFile">
+        <digitalFingerprintValue>c38d629bdb9edbf60d71920108604542</digitalFingerprintValue>
+        <algorithmSpecification>MD5</algorithmSpecification>
+      </dataFingerprint>
+      <dataFingerprint type="dataFile">
+        <digitalFingerprintValue>52ac4004956bd6379ee8e7cfba831f54dbbb69e8</digitalFingerprintValue>
+        <algorithmSpecification>SHA1</algorithmSpecification>
+      </dataFingerprint>
+      <dataFingerprint type="dataFile">
+        <digitalFingerprintValue>d3603c54443b5e5a5ce05f99e52a679a63418aac17ac33d17791b0b0aaddd31f</digitalFingerprintValue>
+        <algorithmSpecification>SHA256</algorithmSpecification>
+      </dataFingerprint>
+      <fileStrc type="rectangular"/>
+      <format>comma-delimited</format>
+    </fileTxt>
+  </fileDscr>
+  <dataDscr>
+    <var name="SD_Code" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="1" EndPos="1" width="8"/>
+      <labl>speed dating code</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="DG" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="2" EndPos="2" width="8"/>
+      <labl>dating group</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="DG_size" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="3" EndPos="3" width="8"/>
+      <labl>dating group size</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Ordinal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="DG_size_acq" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="4" EndPos="4" width="8"/>
+      <labl>dating group size, corrected for prior acquaintance</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>11</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="age" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="5" EndPos="5" width="3"/>
+      <labl>age</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>5</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="sex" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="6" EndPos="6" width="1"/>
+      <labl>sex</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>female</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>male</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>5</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="height" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="7" EndPos="7" width="3"/>
+      <labl>height</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>5</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="weight" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="8" EndPos="8" width="3"/>
+      <labl>weight</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>5</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="relStat" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="9" EndPos="9" width="8"/>
+      <labl>relationship status</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>single</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>in a relationship</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>living separately / divorced</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>10</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="relStat_other" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="10" EndPos="10" width="234"/>
+      <labl>other relationship status</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>String</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>5</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Left</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="education" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="11" EndPos="11" width="1"/>
+      <labl>highest educational attainment</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>nine years schooling only</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>professional training</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>vocational school</labl>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>university-entrance diploma</labl>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>academic degree</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>5</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="contracept" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="12" EndPos="12" width="1"/>
+      <labl>hormonal contraception</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>yes</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>no</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>5</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="date" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="13" EndPos="13" width="1"/>
+      <labl>past experience with speed dating</labl>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>yes</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>no</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>5</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="NPI_avg" dcml="2" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="14" EndPos="14" width="8"/>
+      <labl>narcissistic personality inventory - average</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>10</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="SRP_avg" dcml="2" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="15" EndPos="15" width="8"/>
+      <labl>self-report psychopathy scale - average</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>10</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="MACHIV_avg" dcml="2" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="16" EndPos="16" width="8"/>
+      <labl>mach-iv - average</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>12</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="BFI_N_avg" dcml="2" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="17" EndPos="17" width="8"/>
+      <labl>big five inventory: neuroticism - average</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>11</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="BFI_E_avg" dcml="2" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="18" EndPos="18" width="8"/>
+      <labl>big five inventory: extraversion - average</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>11</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="BFI_O_avg" dcml="2" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="19" EndPos="19" width="8"/>
+      <labl>big five inventory: openness - average</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>11</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="BFI_A_avg" dcml="2" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="20" EndPos="20" width="8"/>
+      <labl>big five inventory: agreeableness - average</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>11</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="BFI_C_avg" dcml="2" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="21" EndPos="21" width="8"/>
+      <labl>big five inventory: conscientiousness - average</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>11</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="PA_R1" dcml="2" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="22" EndPos="22" width="8"/>
+      <labl>physical attractiveness - rater1(f)</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>14</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="PA_R2" dcml="2" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="23" EndPos="23" width="8"/>
+      <labl>physical attractiveness - rater2(f)</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="PA_R3" dcml="2" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="24" EndPos="24" width="8"/>
+      <labl>physical attractiveness - rater3(m)</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="PA_R4" dcml="2" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="25" EndPos="25" width="8"/>
+      <labl>physical attractiveness - rater4(m)</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="PA_avg" dcml="2" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="26" EndPos="26" width="8"/>
+      <labl>physical attractiveness - average</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>19</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="BMI" dcml="2" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="27" EndPos="27" width="8"/>
+      <labl>body mass index</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>10</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="SOI_R_B_avg" dcml="2" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="28" EndPos="28" width="8"/>
+      <labl>sociosexual orientation inventory revised: behavior - average</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>16</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="SOI_R_A_avg" dcml="2" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="29" EndPos="29" width="8"/>
+      <labl>sociosexual orientation inventory revised: attitude - average</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>17</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="SOI_R_D_avg" dcml="2" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="30" EndPos="30" width="8"/>
+      <labl>sociosexual orientation inventory revised: desire - average</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>15</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="TargEff__choice_relFrequ_acq" dcml="2" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="31" EndPos="31" width="8"/>
+      <labl>SRM target effect: actual choice</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>34</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="TargEff__FS_avg_acq" dcml="2" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="32" EndPos="32" width="8"/>
+      <labl>SRM target effect: friendship</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>29</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="TargEff__ONS_avg_acq" dcml="2" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="33" EndPos="33" width="8"/>
+      <labl>SRM target effect: one night stand</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>21</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="TargEff__BC_avg_acq" dcml="2" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="34" EndPos="34" width="8"/>
+      <labl>SRM target effect: booty call</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>28</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="TargEff__FWB_avg_acq" dcml="2" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="35" EndPos="35" width="8"/>
+      <labl>SRM target effect: friends-with-benefits</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>30</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="TargEff__STR_avg_acq" dcml="2" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="36" EndPos="36" width="8"/>
+      <labl>SRM target effect: short-term relationship (aggregated)</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>13</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="TargEff__LTR_avg_acq" dcml="2" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="37" EndPos="37" width="8"/>
+      <labl>SRM target effect: long-term relationship</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>27</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="TargEff__PA_avg_acq" dcml="2" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="38" EndPos="38" width="8"/>
+      <labl>SRM target effect: physical attractiveness</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>28</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="TargEff__Like_avg_acq" dcml="2" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="39" EndPos="39" width="8"/>
+      <labl>SRM target effect: likeability</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>31</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="TargEff__Int_avg_acq" dcml="2" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="40" EndPos="40" width="8"/>
+      <labl>SRM target effect: intelligence</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>29</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="TargEff__FIPI_N_avg_acq" dcml="2" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="41" EndPos="41" width="8"/>
+      <labl>SRM target effect: neuroticism</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>28</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="TargEff__FIPI_E_avg_acq" dcml="2" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="42" EndPos="42" width="8"/>
+      <labl>SRM target effect: extraversion</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>28</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="TargEff__FIPI_O_avg_acq" dcml="2" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="43" EndPos="43" width="8"/>
+      <labl>SRM target effect: openness</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>28</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="TargEff__FIPI_A_avg_acq" dcml="2" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="44" EndPos="44" width="8"/>
+      <labl>SRM target effect: agreeableness</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>31</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="TargEff__FIPI_C_avg_acq" dcml="2" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="45" EndPos="45" width="8"/>
+      <labl>SRM target effect: conscientiousness</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>29</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="PercEff__choice_relFrequ_acq" dcml="2" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="46" EndPos="46" width="8"/>
+      <labl>SRM perceiver effect: actual choice</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>34</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="PercEff__FS_avg_acq" dcml="2" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="47" EndPos="47" width="8"/>
+      <labl>SRM perceiver effect: friendship</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>29</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="PercEff__ONS_avg_acq" dcml="2" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="48" EndPos="48" width="8"/>
+      <labl>SRM perceiver effect: one night stand</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>21</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="PercEff__BC_avg_acq" dcml="2" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="49" EndPos="49" width="8"/>
+      <labl>SRM perceiver effect: booty call</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>28</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="PercEff__FWB_avg_acq" dcml="2" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="50" EndPos="50" width="8"/>
+      <labl>SRM perceiver effect: friends-with-benefits</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>30</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="PercEff__STR_avg_acq" dcml="2" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="51" EndPos="51" width="8"/>
+      <labl>SRM perceiver effect: short-term relationship (aggregated)</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>14</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="PercEff__LTR_avg_acq" dcml="2" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="52" EndPos="52" width="8"/>
+      <labl>SRM perceiver effect: long-term relationship</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>27</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="PercEff__PA_avg_acq" dcml="2" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="53" EndPos="53" width="8"/>
+      <labl>SRM perceiver effect: physical attractiveness</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>28</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="PercEff__Like_avg_acq" dcml="2" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="54" EndPos="54" width="8"/>
+      <labl>SRM perceiver effect: likeability</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>31</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="PercEff__Int_avg_acq" dcml="2" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="55" EndPos="55" width="8"/>
+      <labl>SRM perceiver effect: intelligence</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>29</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="PercEff__FIPI_N_avg_acq" dcml="2" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="56" EndPos="56" width="8"/>
+      <labl>SRM perceiver effect: neuroticism</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>28</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="PercEff__FIPI_E_avg_acq" dcml="2" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="57" EndPos="57" width="8"/>
+      <labl>SRM perceiver effect: extraversion</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>28</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="PercEff__FIPI_O_avg_acq" dcml="2" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="58" EndPos="58" width="8"/>
+      <labl>SRM perceiver effect: openness</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>28</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="PercEff__FIPI_A_avg_acq" dcml="2" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="59" EndPos="59" width="8"/>
+      <labl>SRM perceiver effect: agreeableness</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>31</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="PercEff__FIPI_C_avg_acq" dcml="2" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="60" EndPos="60" width="8"/>
+      <labl>SRM perceiver effect: conscientiousness</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>29</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+  </dataDscr>
+</codeBook>

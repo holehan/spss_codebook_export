@@ -1,0 +1,5 @@
+name,type,label,values,missingformat,missingValue1,missingValue2,missingValue3,width,decimals,measurelevel,role,attributes,dw_konstruct,dw_measocc,dw_instrument,dw_itemtext,dw_filtervariable
+"id","Numeric",,,"No missing values",,,,8,0,"Nominal","Input",,,,,,
+"sex","Numeric","Gender","{0=female}{1=male}","One missing value","-99",,,8,0,"Nominal","Input",,,,,,
+"height","Numeric","Height in cm",,"No missing values",,,,8,2,"Metric","Input",,,,,,
+"weight","Numeric","Wieght in kg",,"No missing values",,,,8,0,"Metric","Input",,,,,,

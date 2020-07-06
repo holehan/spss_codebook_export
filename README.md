@@ -8,7 +8,7 @@
 | [mchr_dual_tasks.sav](data/mchr_dual_tasks.sav)           | <https://drive.google.com/file/d/1rJaZjiJ8p1gOKn6Vwq8AK9zSkB4aAMfv>                     | SPSS System File TICS 64-bit MS Windows 24.0.0.0      |
 | [sleep.sav](data/sleep.sav)                               | <http://spss.allenandunwin.com.s3-website-ap-southeast-2.amazonaws.com/data-files.html> | SPSS System File MS Windows Release 12.0 spssio32.dll |
 | [survey.sav](data/survey.sav)                             | <http://spss.allenandunwin.com.s3-website-ap-southeast-2.amazonaws.com/data-files.html> | SPSS System File MS Windows Release 15.0.0            |
-| [spss27.sav](data/spss27.sav)                             | - | SPSS SPSS System File TICS 64-bit Macintosh 27.0.0.0            |
+| [spss27.sav](data/spss27.sav)                             | -                                                                                       | SPSS SPSS System File TICS 64-bit Macintosh 27.0.0.0  |
 
 ## Converting files
 
@@ -88,7 +88,7 @@ Variable Values
 | 4   | 0   | 165.75        | 56.1    |
 | 5   | 1   | 165.666666666 | 56.25   |
 
-### Export from DataWiz1 (See [export/dw1/spss27_Matrix.csv](export/dw1/spss27_Matrix.csv))
+### Export from DataWiz1 - _Dataset export_ (See [export/dw1-dataset/spss27_Matrix.csv](export/dw1/spss27_Matrix.csv))
 
 | id  | sex | height        | weight |
 | --- | --- | ------------- | ------ |
@@ -97,3 +97,13 @@ Variable Values
 | 3   | -99 | 165.5         | 56     |
 | 4   | 0   | 165.75        | 56     |
 | 5   | 1   | 165.666666666 | 56     |
+
+### Export from DataWiz1 - _Project export_ (See [export/dw1-project/7_spss27/record_matrix.csv](export/dw1-project/7_spss27/record_matrix.csv))
+
+| id  | sex   | height        | weight  |
+| --- | ----- | ------------- | ------- |
+| 1.0 | 0.0   | 165.0         | 55.5555 |
+| 2.0 | 1.0   | 165.5         | 55.05   |
+| 3.0 | -99.0 | 165.5         | 55.777  |
+| 4.0 | 0.0   | 165.75        | 56.1    |
+| 5.0 | 1.0   | 165.666666666 | 56.25   |

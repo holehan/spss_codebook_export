@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<codeBook xmlns="ddi:codebook:2_5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="ddi:codebook:2_5 http://www.ddialliance.org/Specification/DDI-Codebook/2.5/XMLSchema/codebook.xsd" version="2.5">
+  <docDscr>
+    <citation>
+      <titlStmt>
+        <titl>Codebook of spss27</titl>
+      </titlStmt>
+      <prodStmt>
+        <producer role="DataWiz Export">
+          <list>
+            <itm>
+              <label>title</label>
+            </itm>
+            <itm>
+              <label>orcid</label>
+            </itm>
+            <itm>
+              <label>first name</label>
+              <p>Florian</p>
+            </itm>
+            <itm>
+              <label>last name</label>
+              <p>Grässle</p>
+            </itm>
+            <itm>
+              <label>department</label>
+            </itm>
+          </list>
+        </producer>
+        <prodDate>2020-07-06T10:29:05.754478</prodDate>
+        <software>DataWiz</software>
+      </prodStmt>
+    </citation>
+  </docDscr>
+  <stdyDscr>
+    <citation>
+      <titlStmt>
+        <titl>Dummystudie für Codebooktest</titl>
+      </titlStmt>
+      <rspStmt/>
+    </citation>
+  </stdyDscr>
+  <fileDscr>
+    <fileTxt>
+      <fileCitation>
+        <titlStmt>
+          <titl>spss27</titl>
+        </titlStmt>
+        <verStmt>
+          <version>2020-07-03T12:07:51</version>
+          <verResp>fg@leibniz-psychology.org</verResp>
+          <notes>initial upload</notes>
+        </verStmt>
+      </fileCitation>
+      <dataFingerprint type="dataFile">
+        <digitalFingerprintValue>7495f88d3870e8c0473f9f4c3534f746</digitalFingerprintValue>
+        <algorithmSpecification>MD5</algorithmSpecification>
+      </dataFingerprint>
+      <dataFingerprint type="dataFile">
+        <digitalFingerprintValue>b330bb947fb9440266433756dd2a397a2e1c7d4b</digitalFingerprintValue>
+        <algorithmSpecification>SHA1</algorithmSpecification>
+      </dataFingerprint>
+      <dataFingerprint type="dataFile">
+        <digitalFingerprintValue>43eb6a3faf9b0fe6756317cd78d93a2c9f06d6ed21777fd854e1cda40fe1e80a</digitalFingerprintValue>
+        <algorithmSpecification>SHA256</algorithmSpecification>
+      </dataFingerprint>
+      <fileCont>Example dataset created with SPSS27</fileCont>
+      <fileStrc type="rectangular"/>
+      <format>comma-delimited</format>
+    </fileTxt>
+  </fileDscr>
+  <dataDscr>
+    <var name="id" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="1" EndPos="1" width="8"/>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Left</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="sex" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="2" EndPos="2" width="8"/>
+      <labl>Gender</labl>
+      <invalrng>
+        <item VALUE="-99"/>
+      </invalrng>
+      <catgry>
+        <catValu>0</catValu>
+        <labl>female</labl>
+      </catgry>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>male</labl>
+      </catgry>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Nominal</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="height" dcml="2" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="3" EndPos="3" width="8"/>
+      <labl>Height in cm</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+    <var name="weight" dcml="0" representationType="other" otherRepresentationType="SPSS variable type">
+      <location StartPos="4" EndPos="4" width="8"/>
+      <labl>Wieght in kg</labl>
+      <concept>
+        <list>
+          <itm>
+            <label>Filter variable</label>
+            <p>no</p>
+          </itm>
+        </list>
+      </concept>
+      <varFormat>
+        <list>
+          <itm>
+            <label>SPSS variable type</label>
+            <p>Numeric</p>
+          </itm>
+          <itm>
+            <label>columns</label>
+            <p>8</p>
+          </itm>
+          <itm>
+            <label>alignment</label>
+            <p>Right</p>
+          </itm>
+          <itm>
+            <label>measurement level</label>
+            <p>Metric</p>
+          </itm>
+          <itm>
+            <label>role</label>
+            <p>Input</p>
+          </itm>
+        </list>
+      </varFormat>
+    </var>
+  </dataDscr>
+</codeBook>
