@@ -1,0 +1,10 @@
+name,type,label,values,missingformat,missingValue1,missingValue2,missingValue3,width,decimals,measurelevel,role,attributes,dw_konstruct,dw_measocc,dw_instrument,dw_itemtext,dw_filtervariable
+"numeric","Numeric",,,"No missing values",,,,8,2,"Nominal","Input",,,,,,
+"comma","Comma",,,"No missing values",,,,8,4,"Metric","Input",,,,,,
+"dot","Dot",,,"No missing values",,,,8,4,"Metric","Input",,,,,,
+"scientific","Scientific Format",,,"No missing values",,,,8,0,"Metric","Input",,,,,,
+"date","Date",,,"No missing values",,,,11,0,"Metric","Input",,,,,,
+"dollar","Dollar",,,"No missing values",,,,8,4,"Metric","Input",,,,,,
+"custom_currency","Currency",,,"No missing values",,,,8,4,"Metric","Input",,,,,,
+"string","String",,,"No missing values",,,,8,0,"Nominal","Input",,,,,,
+"restricted_numeric","Integer",,,"No missing values",,,,8,0,"Metric","Input",,,,,,

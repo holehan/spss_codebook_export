@@ -1,0 +1,12 @@
+{"type": "SPSS",
+  "variables": [
+{"type": "NUMERIC", "name": "numeric", "decimals": 2},
+{"type": "NUMERIC", "name": "comma"},
+{"type": "NUMERIC", "name": "dot"},
+{"type": "NUMERIC", "name": "scientific"},
+{"type": "DATE", "name": "date"},
+{"type": "NUMERIC", "name": "dollar"},
+{"type": "NUMERIC", "name": "custom_currency"},
+{"type": "STRING", "name": "string"},
+{"type": "NUMERIC", "name": "restricted_numeric"}]}
+

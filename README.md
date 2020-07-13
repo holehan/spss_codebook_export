@@ -107,3 +107,19 @@ Variable Values
 | 3.0 | -99.0 | 165.5         | 55.777  |
 | 4.0 | 0.0   | 165.75        | 56.1    |
 | 5.0 | 1.0   | 165.666666666 | 56.25   |
+
+### SPSS Variable Types
+
+| SPSS Variable Type  | SPSS Input example | SPSS CSV Export | SPSS internal notation | DW1               | Suggested variable type for DW2 |
+| ------------------- | ------------------ | --------------- | ---------------------- | ----------------- | ------------------------------- |
+| Numeric             | 1234.57            | 1234.56789      | F8.2                   | Numeric           | Numeric                         |
+| Comma               | 1,234,567.8900     | 1234567.89      | COMMA8.4               | Comma             | Numeric                         |
+| Dot                 | 1.234.567,8900     | 1234567.89      | DOT8.4                 | Dot               | Numeric                         |
+| Scientific notation | 1.E+004            | 12345           | E8                     | Scientific Format | Numeric                         |
+| Date                | 01-Jan-1970        | 1/1/1970        | DATE11                 | Date              | Date                            |
+| Dollar              | \$1,234.5600       | 1234.56         | DOLLAR8.4              | Dollar            | Numeric                         |
+| Custom currency     | 1,234.5600         | 1234.56         | CCA8.4                 | Currency          | Numeric                         |
+| String              | Text               | Text            | A8                     | String            | String                          |
+| Restricted numeric  | 00001234           | 1234            | N8                     | Integer           | Numeric                         |
+
+Variable types for DW2: **Numeric**, **String**, **Date**
