@@ -1,14 +1,14 @@
 ## SPSS files with embedded codebook
 
-| File                                                      | Source                                                                                  | File creator                                          |
-| --------------------------------------------------------- | --------------------------------------------------------------------------------------- | ----------------------------------------------------- |
-| [37110-0001-Data.sav](data/37110-0001-Data.sav)           | <https://www.icpsr.umich.edu/web/HMCA/studies/37110/versions/V1>                        | SPSS System File TICS 64-bit Linux 25.0.0.0           |
-| [37110-0002-Data.sav](data/37110-0002-Data.sav)           | <https://www.icpsr.umich.edu/web/HMCA/studies/37110/versions/V1>                        | SPSS System File TICS 64-bit Linux 25.0.0.0           |
-| [DarkTriadDate_person.sav](data/DarkTriadDate_person.sav) | <https://osf.io/j4fcb/>                                                                 | SPSS System File TICS 64-bit MS Windows 22.0.0.0      |
-| [mchr_dual_tasks.sav](data/mchr_dual_tasks.sav)           | <https://drive.google.com/file/d/1rJaZjiJ8p1gOKn6Vwq8AK9zSkB4aAMfv>                     | SPSS System File TICS 64-bit MS Windows 24.0.0.0      |
-| [sleep.sav](data/sleep.sav)                               | <http://spss.allenandunwin.com.s3-website-ap-southeast-2.amazonaws.com/data-files.html> | SPSS System File MS Windows Release 12.0 spssio32.dll |
-| [survey.sav](data/survey.sav)                             | <http://spss.allenandunwin.com.s3-website-ap-southeast-2.amazonaws.com/data-files.html> | SPSS System File MS Windows Release 15.0.0            |
-| [spss27.sav](data/spss27.sav)                             | -                                                                                       | SPSS SPSS System File TICS 64-bit Macintosh 27.0.0.0  |
+| File                                                      | Source                                                                                                                       | File creator                                          |
+| --------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------- |
+| [37110-0001-Data.sav](data/37110-0001-Data.sav)           | [ICPSR](https://www.icpsr.umich.edu/web/HMCA/studies/37110/versions/V1)                                                      | SPSS System File TICS 64-bit Linux 25.0.0.0           |
+| [37110-0002-Data.sav](data/37110-0002-Data.sav)           | [ICPSR](https://www.icpsr.umich.edu/web/HMCA/studies/37110/versions/V1)                                                      | SPSS System File TICS 64-bit Linux 25.0.0.0           |
+| [DarkTriadDate_person.sav](data/DarkTriadDate_person.sav) | <https://osf.io/j4fcb/>                                                                                                      | SPSS System File TICS 64-bit MS Windows 22.0.0.0      |
+| [mchr_dual_tasks.sav](data/mchr_dual_tasks.sav)           | [??? - google drive](https://drive.google.com/file/d/1rJaZjiJ8p1gOKn6Vwq8AK9zSkB4aAMfv)                                      | SPSS System File TICS 64-bit MS Windows 24.0.0.0      |
+| [sleep.sav](data/sleep.sav)                               | [https://www.spss.allenandunwin.com/](http://spss.allenandunwin.com.s3-website-ap-southeast-2.amazonaws.com/data-files.html) | SPSS System File MS Windows Release 12.0 spssio32.dll |
+| [survey.sav](data/survey.sav)                             | [https://www.spss.allenandunwin.com/](http://spss.allenandunwin.com.s3-website-ap-southeast-2.amazonaws.com/data-files.html) | SPSS System File MS Windows Release 15.0.0            |
+| [spss27.sav](data/spss27.sav)                             | custom made with SPSS 27                                                                                                     | SPSS SPSS System File TICS 64-bit Macintosh 27.0.0.0  |
 
 ## Converting files
 
@@ -110,16 +110,16 @@ Variable Values
 
 ### SPSS Variable Types
 
-| SPSS Variable Type  | SPSS Input example | SPSS CSV Export | SPSS internal notation | DW1               | Suggested variable type for DW2 |
-| ------------------- | ------------------ | --------------- | ---------------------- | ----------------- | ------------------------------- |
-| Numeric             | 1234.57            | 1234.56789      | F8.2                   | Numeric           | Numeric                         |
-| Comma               | 1,234,567.8900     | 1234567.89      | COMMA8.4               | Comma             | Numeric                         |
-| Dot                 | 1.234.567,8900     | 1234567.89      | DOT8.4                 | Dot               | Numeric                         |
-| Scientific notation | 1.E+004            | 12345           | E8                     | Scientific Format | Numeric                         |
-| Date                | 01-Jan-1970        | 1/1/1970        | DATE11                 | Date              | Date                            |
-| Dollar              | \$1,234.5600       | 1234.56         | DOLLAR8.4              | Dollar            | Numeric                         |
-| Custom currency     | 1,234.5600         | 1234.56         | CCA8.4                 | Currency          | Numeric                         |
-| String              | Text               | Text            | A8                     | String            | String                          |
-| Restricted numeric  | 00001234           | 1234            | N8                     | Integer           | Numeric                         |
+| SPSS Variable Type  | SPSS Input example | SPSS CSV Export | SPSS internal notation | DW1 Codebook Export | Suggested variable type for DW2 |
+| ------------------- | ------------------ | --------------- | ---------------------- | ------------------- | ------------------------------- |
+| Numeric             | 1234.57            | 1234.56789      | F8.2                   | Numeric             | Numeric                         |
+| Comma               | 1,234,567.8900     | 1234567.89      | COMMA8.4               | Comma               | Numeric                         |
+| Dot                 | 1.234.567,8900     | 1234567.89      | DOT8.4                 | Dot                 | Numeric                         |
+| Scientific notation | 1.E+004            | 12345           | E8                     | Scientific Format   | Numeric                         |
+| Date                | 01-Jan-1970        | 1/1/1970        | DATE11                 | Date                | Date                            |
+| Dollar              | \$1,234.5600       | 1234.56         | DOLLAR8.4              | Dollar              | Numeric                         |
+| Custom currency     | 1,234.5600         | 1234.56         | CCA8.4                 | Currency            | Numeric                         |
+| String              | Text               | Text            | A8                     | String              | String                          |
+| Restricted numeric  | 00001234           | 1234            | N8                     | Integer             | Numeric                         |
 
-Variable types for DW2: **Numeric**, **String**, **Date**
+Suggested Variable types for DW2: **Numeric**, **String**, **Date**
